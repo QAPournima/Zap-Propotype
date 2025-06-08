@@ -209,6 +209,7 @@ const Settings = ({ themeMode, setThemeMode }) => {
   const [disconnectConfirm, setDisconnectConfirm] = useState({ show: false, key: null, name: '' });
   const [connectModal, setConnectModal] = useState({ show: false, key: null, name: '', fields: {} });
   const [showConnectedBanner, setShowConnectedBanner] = useState({ show: false, name: '' });
+  const [showDisconnectedBanner, setShowDisconnectedBanner] = useState({ show: false, name: '' });
   const [profileLoading, setProfileLoading] = useState(false);
   const [profileError, setProfileError] = useState(null);
   const [notificationsLoading, setNotificationsLoading] = useState(false);
@@ -456,7 +457,7 @@ const Settings = ({ themeMode, setThemeMode }) => {
     // Here you would send mappedFields to your backend if needed
     setConnectModal({ show: false, key: null, name: '', fields: {} });
     setShowConnectedBanner({ show: true, name: connectModal.name });
-    setTimeout(() => setShowConnectedBanner({ show: false, name: '' }), 30000);
+    setTimeout(() => setShowConnectedBanner({ show: false, name: '' }), 15000);
   };
 
   const handleConnectCancel = () => {
@@ -469,7 +470,12 @@ const Settings = ({ themeMode, setThemeMode }) => {
 
   const confirmDisconnect = () => {
     setIntegrationState(s => ({ ...s, [disconnectConfirm.key]: null }));
+    if (showConnectedBanner.name === disconnectConfirm.name) {
+      setShowConnectedBanner({ show: false, name: '' });
+    }
     setDisconnectConfirm({ show: false, key: null, name: '' });
+    setShowDisconnectedBanner({ show: true, name: disconnectConfirm.name });
+    setTimeout(() => setShowDisconnectedBanner({ show: false, name: '' }), 3000);
   };
 
   const cancelDisconnect = () => {
@@ -645,6 +651,13 @@ const Settings = ({ themeMode, setThemeMode }) => {
               <div className="absolute left-1/2 top-0 transform -translate-x-1/2 mt-2 z-50">
                 <div className="bg-green-200 text-green-900 text-lg font-bold px-8 py-2 rounded-xl shadow animate-fade-in">
                   {showConnectedBanner.name} Connected
+                </div>
+              </div>
+            )}
+            {showDisconnectedBanner.show && (
+              <div className="absolute left-1/2 top-0 transform -translate-x-1/2 mt-2 z-50">
+                <div className="bg-red-200 text-red-900 text-lg font-bold px-8 py-2 rounded-xl shadow animate-fade-in">
+                  {showDisconnectedBanner.name} Disconnected
                 </div>
               </div>
             )}
