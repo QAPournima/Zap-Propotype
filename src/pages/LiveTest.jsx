@@ -48,21 +48,15 @@ export default function LiveTest() {
     setError(null);
     setResults(null);
     setTestCaseName('');
-    console.log('Fetching:', `${API_URL}/${jiraId}`);
-    fetch(`${API_URL}/${jiraId}`, { method: 'POST' })
+    // Fetch static demo data from public folder
+    fetch('/demo-automated-test.json')
       .then(res => res.json())
       .then(data => {
-        console.log('Received data:', data);
-        if (data.success) {
-          setResults(data.results);
-          setTestCaseName(data.testCaseName || jiraId);
-          setTestResult(data);
-        } else {
-          setError(data.error || 'Test execution failed');
-        }
+        setResults(data.results);
+        setTestCaseName(data.testCaseName || jiraId);
+        setTestResult(data);
       })
       .catch(err => {
-        console.error('Fetch error:', err);
         setError(err.message || 'Test execution failed');
       })
       .finally(() => setLoading(false));
@@ -107,30 +101,19 @@ export default function LiveTest() {
       .catch(() => setManualTestHistory([]));
   };
 
-  // Save steps as automated test (send to backend or show as JSON)
+  // Save steps as automated test (simulate success)
   const saveSteps = () => {
     setSaveMessage('');
     setSaving(true);
-    fetch('/api/save-steps', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ steps: steps, name: testCaseName })
-    })
-      .then(res => res.json())
-      .then(data => {
-        if (data.success) {
-          setSaveMessage('Saved as automated test!');
-          setStatusMessage('Test saved as Automated Test!');
-          //setTestState('completed');
-          setTestCaseName('Demo Test');
-          fetchManualTestHistory();
-          setManualTestComplete(true);
-          setManualTestStarted(false);
-          setManualStatus('Completed');
-        } else setSaveMessage('Failed to save: ' + (data.error || 'Unknown error'));
-      })
-      .catch(err => setSaveMessage('Failed to save: ' + err.message))
-      .finally(() => setSaving(false));
+    setTimeout(() => {
+      setSaveMessage('Saved as automated test!');
+      setStatusMessage('Test saved as Automated Test!');
+      fetchManualTestHistory();
+      setManualTestComplete(true);
+      setManualTestStarted(false);
+      setManualStatus('Completed');
+      setSaving(false);
+    }, 500);
   };
 
   // Fetch history on mount
@@ -233,19 +216,12 @@ export default function LiveTest() {
     setBugStatus('');
   };
   const closeBugModal = () => setShowBugModal(false);
+  // Simulate bug creation
   const submitBug = () => {
     setBugStatus('');
-    fetch('/api/create-bug', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ jiraId, description: bugDescription })
-    })
-      .then(res => res.json())
-      .then(data => {
-        if (data.success) setBugStatus('Bug created successfully!');
-        else setBugStatus('Failed to create bug: ' + (data.error || 'Unknown error'));
-      })
-      .catch(err => setBugStatus('Failed to create bug: ' + err.message));
+    setTimeout(() => {
+      setBugStatus('Bug created successfully!');
+    }, 500);
   };
 
   const startManualTest = () => {
