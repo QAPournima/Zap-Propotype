@@ -824,15 +824,15 @@ const Settings = ({ themeMode, setThemeMode }) => {
       </section>
       {disconnectConfirm.show && (
         <div className="fixed inset-0 bg-black bg-opacity-40 flex items-center justify-center z-50 p-4">
-          <div className="bg-white rounded-xl shadow-lg p-8 max-w-md w-full">
+          <div className="bg-red-50 border border-red-400 rounded-xl shadow-lg p-8 max-w-md w-full">
             <div className="flex justify-between items-center mb-4">
-              <h2 className="text-xl font-bold text-gray-900">Disconnect Integration</h2>
-              <button className="text-gray-400 hover:text-gray-700 text-2xl" onClick={cancelDisconnect}>&times;</button>
+              <h2 className="text-xl font-bold text-red-700">Disconnect Integration</h2>
+              <button className="text-red-400 hover:text-red-700 text-2xl" onClick={cancelDisconnect}>&times;</button>
             </div>
-            <div className="mb-6">Are you sure you want to disconnect <b>{disconnectConfirm.name}</b>?</div>
+            <div className="mb-6 text-red-700">Are you sure you want to disconnect <b>{disconnectConfirm.name}</b>?</div>
             <div className="flex gap-4 justify-end">
               <button className="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300" onClick={cancelDisconnect}>Cancel</button>
-              <button className="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600" onClick={confirmDisconnect}>Disconnect</button>
+              <button className="px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700 font-bold shadow" onClick={confirmDisconnect}>Disconnect</button>
             </div>
           </div>
         </div>
