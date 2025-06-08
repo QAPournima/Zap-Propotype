@@ -1,0 +1,50 @@
+{
+  "aiSuggestions": [
+    { "id": 1, "title": "Add test coverage for new API endpoint", "type": "coverage", "priority": "high", "confidence": "95%" },
+    { "id": 2, "title": "Potential race condition in user authentication", "type": "bug", "priority": "medium", "confidence": "80%" },
+    { "id": 3, "title": "Optimize database queries in report generation", "type": "performance", "priority": "low", "confidence": "70%" }
+  ],
+  "recentActivity": [
+    { "id": 1, "title": "Login flow test suite", "status": "completed", "user": "John Doe", "timestamp": 1717770000000 },
+    { "id": 2, "title": "Payment gateway integration issue", "status": "in_progress", "user": "Jane Smith", "timestamp": 1717775000000 },
+    { "id": 3, "title": "E2E test suite for checkout flow", "status": "completed", "user": "Mike Johnson", "timestamp": 1717780000000 }
+  ],
+  "pendingReviews": [
+    { "id": 1, "title": "User profile update tests", "type": "test_case", "assignedTo": "Sarah Wilson", "status": "pending", "timestamp": 1717785000000 },
+    { "id": 2, "title": "Mobile responsive layout issue", "type": "bug", "assignedTo": "Tom Brown", "status": "pending", "timestamp": 1717790000000 },
+    { "id": 3, "title": "API regression suite", "type": "automation", "assignedTo": "Mike Johnson", "status": "pending", "timestamp": 1717795000000 }
+  ],
+  "quickStats": {
+    "assignedTasks": 6,
+    "testCasesCreated": 30,
+    "bugsReported": 12,
+    "testCoverage": 94,
+    "automationScripts": 8,
+    "failedTests": 2
+  },
+  "roleBasedStats": {
+    "developer": {
+      "assignedTasks": 4,
+      "completedTasks": 3,
+      "codeCoverage": 87,
+      "openPRs": 2,
+      "codeReviews": 5
+    },
+    "qa": {
+      "assignedTasks": 6,
+      "testCasesCreated": 30,
+      "bugsReported": 12,
+      "testCoverage": 94,
+      "automationScripts": 8,
+      "failedTests": 2
+    },
+    "pm": {
+      "assignedTasks": 2,
+      "activeSprints": 1,
+      "completedSprints": 3,
+      "teamVelocity": 21,
+      "riskItems": 1,
+      "blockers": 0
+    }
+  }
+}
