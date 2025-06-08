@@ -51,8 +51,8 @@ const Sidebar = ({ collapsed, setCollapsed }) => {
         <ul className="space-y-2">
           <li>
             <Link
-              to="/"
-              className={`flex items-center p-2 rounded-lg ${isActive('/') ? 'bg-[#23293a]' : 'hover:bg-[#23293a]'} ${collapsed ? 'justify-center' : ''}`}
+              to="/dashboard"
+              className={`flex items-center p-2 rounded-lg ${isActive('/dashboard') ? 'bg-[#23293a]' : 'hover:bg-[#23293a]'} ${collapsed ? 'justify-center' : ''}`}
             >
               <img src="/images/Dashboard_icon.png" alt="Dashboard" className="w-6 h-6 mr-0" />
               {!collapsed && <span className="ml-3 text-white">Dashboard</span>}
