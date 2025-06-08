@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation, Navigate } from 'react-router-dom';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import Sidebar from './components/Sidebar';
@@ -40,10 +40,9 @@ function AppRoutes(props) {
     );
   }
 
-  // Redirect root path '/' to '/login'
+  // Redirect root path '/' to '/login' using React Router
   if (location.pathname === '/') {
-    window.location.replace('/login');
-    return null;
+    return <Navigate to="/login" replace />;
   }
 
   // Otherwise, render the full layout
@@ -54,7 +53,7 @@ function AppRoutes(props) {
         <Sidebar collapsed={sidebarCollapsed} setCollapsed={setSidebarCollapsed} />
         <main className={`flex-1 overflow-auto transition-all duration-300 ${sidebarCollapsed ? 'ml-16' : 'ml-60'}`}> 
           <Routes>
-            <Route path="/" element={<Dashboard {...chatProps} />} />
+            <Route path="/dashboard" element={<Dashboard {...chatProps} />} />
             <Route path="/activity" element={<ActivityLogs refreshKey={activityLogsRefreshKey} {...chatProps} />} />
             <Route path="/settings" element={<Settings themeMode={themeMode} setThemeMode={setThemeMode} />} />
             <Route path="/settings/jira" element={<JiraSettings />} />
