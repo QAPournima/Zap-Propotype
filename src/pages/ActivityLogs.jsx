@@ -37,8 +37,8 @@ const ActivityLogs = ({ refreshKey, ...props }) => {
   useEffect(() => {
     setLoading(true);
     Promise.all([
-      fetch('/api/activity-logs').then(res => res.json()).catch(() => []),
-      fetch('/api/mysprint-actions').then(res => res.json()).catch(() => [])
+      fetch('/activityLogs.json').then(res => res.json()).catch(() => []),
+      fetch('/mysprint-actions.json').then(res => res.json()).catch(() => [])
     ])
       .then(([activityLogs, sprintActions]) => {
         setTestCases(Array.isArray(activityLogs) ? activityLogs : []);
