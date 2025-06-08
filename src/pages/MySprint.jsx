@@ -53,18 +53,10 @@ export default function MySprint() {
   const [selectedProject, setSelectedProject] = useState('');
 
   useEffect(() => {
-    fetchJiraProjects();
-    // Fetch current projectId from settings and set as selected
-    settingsService.getApplicationSettings()
-      .then(appSettings => {
-        setSelectedProject(appSettings?.jira?.projectId || '');
-        if (appSettings?.jira?.projectId) {
-          fetchSprintForProject(appSettings.jira.projectId);
-        }
-      })
-      .catch(err => {
-        setError('Please check your project integration and try again.');
-      });
+    // For static mock data, skip fetchJiraProjects and just set a default project
+    setProjects([{ id: 'mock', name: 'Mock Project' }]);
+    setSelectedProject('mock');
+    fetchSprintForProject('mock');
   }, []);
 
   useEffect(() => {
@@ -275,14 +267,14 @@ export default function MySprint() {
     }
   };
 
-  // Helper to fetch sprint for a given projectId
+  // Fetch sprint and actions from public folder
   const fetchSprintForProject = async (projectId) => {
     setLoading(true);
     setError(null);
     try {
       const [sprintRes, actionsRes] = await Promise.all([
-        fetch(`/api/jira/projects/${projectId}/sprint/current`),
-        fetch('/api/mysprint-actions')
+        fetch('/mysprint.json'),
+        fetch('/mysprint-actions.json')
       ]);
       if (!sprintRes.ok) throw new Error('Failed to fetch sprint');
       const sprintData = await sprintRes.json();
