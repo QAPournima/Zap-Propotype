@@ -14,7 +14,7 @@ const Login = () => {
       return;
     }
     setError('');
-    navigate('/');
+    navigate('/dashboard');
   };
 
   const handleResendVerification = async () => {
