@@ -64,12 +64,9 @@ export default function MySprint() {
       setLoading(true);
       setError(null);
       try {
-        const appSettings = await settingsService.getApplicationSettings();
-        const projectId = appSettings?.jira?.projectId;
-        if (!projectId) throw new Error('No Jira projectId found in settings');
         const [sprintRes, actionsRes] = await Promise.all([
-          fetch(`/api/jira/projects/${projectId}/sprint/current`),
-          fetch('/api/mysprint-actions')
+          fetch('/mysprint.json'),
+          fetch('/mysprint-actions.json')
         ]);
         if (!sprintRes.ok) throw new Error('Failed to fetch sprint');
         const sprintData = await sprintRes.json();
