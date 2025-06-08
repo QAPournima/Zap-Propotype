@@ -1,73 +1,58 @@
-# Zap⚡️ Platform Prototype
+# Zap Prototype ⚡️
 
-This is a prototype of the Zap⚡️ Platform, showcasing the main features and UI components.
+A modern, web-based prototype for automated and manual test management, built with React. This project is **frontend-only** and uses mock/static data—no backend required.
 
-## Features
+## 🚀 Overview
+Zap is a demo-friendly, dark-themed web app for managing test cases, automation, bugs, and team collaboration. It features a conversational AI assistant, notification system, and a beautiful, modern UI.
 
-- Dashboard with test statistics and recent runs
-- Live Test interface for manual testing
-- Automated Test execution with progress tracking
-- Test History with filtering and sorting
-- Modern, responsive UI
+## ✨ Features
+- **AI Chatbot Assistant**: Generate test cases, automation scripts, and bugs from user stories.
+- **Test Management**: View, run, and manage automated and manual test cases.
+- **Bug Tracking**: Create and link bugs to user stories.
+- **Team Collaboration**: Invite team members, view notifications, and manage settings.
+- **Dark Mode**: Consistent, modern dark theme throughout the app.
+- **No Backend Required**: All data is static or mock for easy demo and sharing.
 
-## Setup
+## 🛠️ Tech Stack
+- **Frontend**: React, Tailwind CSS
+- **Data**: Static/mock JSON and JS files
+- **No backend/server required**
 
-1. Make sure you have Python 3.x installed
-2. Clone this repository
-3. Navigate to the prototype directory:
+## 🖥️ Running Locally
+1. **Clone the repo:**
    ```bash
-   cd zap-prototype
+   git clone git@github.com:QAPournima/Zap-Propotype.git
+   cd Zap-Propotype
    ```
-4. Start the server:
+2. **Install dependencies:**
    ```bash
-   python server.py
+   npm install
    ```
-5. Open your browser and visit:
+3. **Start the app:**
+   ```bash
+   npm start
    ```
-   http://localhost:3000
-   ```
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Pages
+## 🌍 Deploying (Shareable Web URL)
+You can deploy this app for free using [Vercel](https://vercel.com/) or [Netlify](https://netlify.com/):
 
-1. **Dashboard**
-   - Overview of test statistics
-   - Recent test runs
-   - Quick action buttons
+### **Vercel**
+- Push your code to GitHub.
+- Go to [vercel.com](https://vercel.com/), sign in, and import your repo.
+- Click **Deploy**. You’ll get a public URL to share.
 
-2. **Live Test**
-   - Test case selection
-   - Step-by-step test execution
-   - Pass/Fail actions
+### **Netlify**
+- Push your code to GitHub.
+- Go to [netlify.com](https://netlify.com/), sign in, and import your repo.
+- Click **Deploy**. You’ll get a public URL to share.
 
-3. **Automated Test**
-   - Test suite selection
-   - Progress tracking
-   - Real-time status updates
+## 🤝 Contributing
+Pull requests and suggestions are welcome! For major changes, please open an issue first to discuss what you’d like to change.
 
-4. **Test History**
-   - Filterable test run list
-   - Status badges
-   - Date sorting
-   - Pagination
+## 📧 Contact
+For questions or feedback, contact [Pournima Tele](mailto:pournima.tele@gmail.com).
 
-## Mock Data
+---
 
-The prototype uses mock data to simulate:
-- Test cases
-- Test runs
-- Statistics
-- User information
-
-## Development
-
-To modify the prototype:
-1. Edit the HTML in `index.html`
-2. Update styles in `styles.css`
-3. Modify behavior in `script.js`
-4. Restart the server to see changes
-
-## Notes
-
-- This is a prototype and does not connect to any backend services
-- All data is static and resets on page refresh
-- Some features are simulated for demonstration purposes 
+**Note:** This is a prototype for demo and UI/UX exploration. No real data or backend is used.
