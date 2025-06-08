@@ -53,10 +53,20 @@ export default function MySprint() {
   const [selectedProject, setSelectedProject] = useState('');
 
   useEffect(() => {
-    // For static mock data, skip fetchJiraProjects and just set a default project
-    setProjects([{ id: 'mock', name: 'Mock Project' }]);
-    setSelectedProject('mock');
-    fetchSprintForProject('mock');
+    fetch('/jiraProjects.json')
+      .then(res => res.json())
+      .then(data => {
+        setProjects(data);
+        if (data.length > 0) {
+          setSelectedProject(data[0].id);
+          fetchSprintForProject(data[0].id);
+        }
+      })
+      .catch(() => {
+        setProjects([{ id: 'mock', name: 'Mock Project' }]);
+        setSelectedProject('mock');
+        fetchSprintForProject('mock');
+      });
   }, []);
 
   useEffect(() => {
