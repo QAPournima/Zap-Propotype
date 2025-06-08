@@ -2,17 +2,17 @@
   "aiService": "openai",
   "openai": {
     "url": "https://api.openai.com/v1/chat/completions",
-    "apiKey": "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",
+    "apiKey": "your openAI api key",
     "model": "gpt-4"
   },
   "automation": {
-    "projectLocation": "/Users/pournima/Documents/Aircall mobile Automation Project/mobile-automation-main/src/test/java/page_objects/AutomationPOC",
+    "projectLocation": "your local project location",
     "scriptLanguage": "java"
   },
   "jira": {
-    "url": "https://pgosavimail-1738861033052.atlassian.net/",
-    "username": "pgosavi.mail@gmail.com",
-    "apiToken": "ATATT3xFfGF0g4j98S6XEAcTLa2SO_XtId6VmVuqz1aYHQDEA1Y7BUXGwO68i9Sly_2MvOnbqbZCwo2klv_vVii5fbOc4C1NAkk1E1M4WPlkfhbdXYfUNmJmMUnMPFxdrotzqMwtTM0bQKKhcgk8bG-iTK4z2aMq5amcHQkuFnL8dhodDa-NGJo=965B8BB5",
+    "url": "https://xxxx.atlassian.net/",
+    "username": "email id",
+    "apiToken": "your jira api key",
     "projectId": "SCRUM",
     "bugLinkType": "Blocks",
     "testCaseLinkType": "Relates",
