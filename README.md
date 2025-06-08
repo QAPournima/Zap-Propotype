@@ -1,6 +1,6 @@
-# Zap QA Platform Prototype
+# Zap⚡️ Platform Prototype
 
-This is a prototype of the Zap QA Platform, showcasing the main features and UI components.
+This is a prototype of the Zap⚡️ Platform, showcasing the main features and UI components.
 
 ## Features
 
