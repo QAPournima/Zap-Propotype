@@ -11,14 +11,14 @@
       "summary": "demo",
       "status": "To Do",
       "assignee": "",
-      "type": "Story"
+      "type": "Test"
     },
     {
       "id": "QA-18",
       "summary": "Messages section displayed on the Inbox screen-demo Story",
       "status": "To Do",
       "assignee": "",
-      "type": "Story"
+      "type": "Task"
     },
     {
       "id": "QA-3",
