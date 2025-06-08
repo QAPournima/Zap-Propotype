@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zap QA Platform - Prototype</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Login Section -->
+    <section id="login" class="section active">
+        <div class="login-container">
+            <div class="login-box">
+                <h1>Zap QA Platform</h1>
+                <form id="loginForm" onsubmit="handleLogin(event)">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" required>
+                    </div>
+                    <button type="submit" class="btn primary">Login</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="app-container" style="display: none;">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="logo">Zap QA</div>
+            <div class="nav-links">
+                <a href="#" class="active">Dashboard</a>
+                <a href="#live-test">Live Test</a>
+                <a href="#automated-test">Automated Test</a>
+                <a href="#test-history">Test History</a>
+                <a href="#activity-logs">Activity Logs</a>
+            </div>
+            <div class="user-profile">
+                <span class="username">demo_user</span>
+                <img src="https://ui-avatars.com/api/?name=Demo+User" alt="User Avatar" class="avatar">
+            </div>
+        </nav>
+
+        <!-- Chatbox -->
+        <div class="chatbox" id="chatbox">
+            <div class="chatbox-header">
+                <h3>AI Assistant</h3>
+                <button class="btn-icon" onclick="toggleChatbox()">×</button>
+            </div>
+            <div class="chatbox-messages" id="chatMessages">
+                <div class="message bot">
+                    Hello! How can I help you today?
+                </div>
+            </div>
+            <div class="chatbox-input">
+                <input type="text" id="chatInput" placeholder="Type your message...">
+                <button class="btn primary" onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+        <button class="chatbox-toggle" onclick="toggleChatbox()">
+            <span>💬</span>
+        </button>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Dashboard Section -->
+            <section id="dashboard" class="section">
+                <div class="dashboard-topbar">
+                    <div class="dashboard-title">Zap⚡</div>
+                    <div class="dashboard-actions">
+                        <label for="roleSelect" class="role-label"><span class="icon-user">👤</span> Select Role:</label>
+                        <select id="roleSelect" class="role-select">
+                            <option value="QA">QA</option>
+                            <option value="Developer">Developer</option>
+                            <option value="Manager">Manager</option>
+                        </select>
+                        <button class="btn bell">🔔</button>
+                        <button class="btn invite">Invite team</button>
+                        <button class="btn plan">Buy a plan</button>
+                    </div>
+                </div>
+                <div class="dashboard-main-grid">
+                    <div class="dashboard-card ai-suggestions">
+                        <h3>🤖 AI Suggestions</h3>
+                        <ul>
+                            <li><span class="pill high">high</span> Add test coverage for new API endpoint</li>
+                            <li><span class="pill medium">medium</span> Potential race condition in user authentication</li>
+                            <li><span class="pill low">low</span> Optimize database queries in report generation</li>
+                        </ul>
+                    </div>
+                    <div class="dashboard-card recent-activity">
+                        <h3>🕒 Recent Activity</h3>
+                        <ul>
+                            <li><span class="pill completed">completed</span> Login flow test suite <span class="activity-user">John Doe</span></li>
+                            <li><span class="pill in-progress">in_progress</span> Payment gateway integration issue <span class="activity-user">Jane Smith</span></li>
+                            <li><span class="pill completed">completed</span> E2E test suite for checkout flow <span class="activity-user">Mike Johnson</span></li>
+                        </ul>
+                    </div>
+                    <div class="dashboard-card pending-reviews">
+                        <h3>⏳ Pending Reviews</h3>
+                        <ul>
+                            <li><span class="pill test-case">test_case</span> User profile update tests <span class="activity-user">Sarah Wilson</span></li>
+                            <li><span class="pill bug">bug</span> Mobile responsive layout issue <span class="activity-user">Tom Brown</span></li>
+                            <li><span class="pill automation">automation</span> API regression suite <span class="activity-user">Mike Johnson</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="dashboard-stats-grid">
+                    <div class="stat-card dark"><span class="icon">📅</span> Assigned Tasks <span class="stat-value">6</span></div>
+                    <div class="stat-card dark"><span class="icon">📝</span> Test Cases Created <span class="stat-value">30</span></div>
+                    <div class="stat-card dark"><span class="icon">🐞</span> Bugs Reported <span class="stat-value">12</span></div>
+                    <div class="stat-card dark"><span class="icon">📊</span> Test Coverage <span class="stat-value">94%</span></div>
+                    <div class="stat-card dark"><span class="icon">⚙️</span> Automation Scripts <span class="stat-value">8</span></div>
+                    <div class="stat-card dark"><span class="icon">❌</span> Failed Tests <span class="stat-value">2</span></div>
+                </div>
+                <div class="dashboard-quick-actions">
+                    <button class="btn quick green"><span class="icon">✏️</span> Generate Test Case</button>
+                    <button class="btn quick red"><span class="icon">🐞</span> Log Bug</button>
+                </div>
+            </section>
+
+            <!-- Live Test Section -->
+            <section id="live-test" class="section">
+                <h1>Live Test</h1>
+                <div class="test-container">
+                    <div class="test-case-selector">
+                        <select id="testCaseSelect">
+                            <option value="TC-001">TC-001: Login Functionality</option>
+                            <option value="TC-002">TC-002: User Registration</option>
+                        </select>
+                        <button class="btn primary run-btn" onclick="startTest()">Run Test</button>
+                    </div>
+                    <div class="test-steps">
+                        <div class="step">
+                            <p>Step 1: Enter username: demo_user</p>
+                            <div class="step-actions">
+                                <button class="btn success">Pass</button>
+                                <button class="btn error">Fail</button>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <p>Step 2: Enter password: password123</p>
+                            <div class="step-actions">
+                                <button class="btn success">Pass</button>
+                                <button class="btn error">Fail</button>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <p>Step 3: Click Login button</p>
+                            <div class="step-actions">
+                                <button class="btn success">Pass</button>
+                                <button class="btn error">Fail</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Automated Test Section -->
+            <section id="automated-test" class="section">
+                <h1>Automated Test</h1>
+                <div class="automated-test-container">
+                    <div class="test-suite-selector">
+                        <select id="testSuiteSelect">
+                            <option value="suite-1">Login Test Suite</option>
+                            <option value="suite-2">Registration Test Suite</option>
+                        </select>
+                        <button class="btn primary run-btn" onclick="runAutomatedTest()">Run Test Suite</button>
+                    </div>
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <div class="progress" id="testProgress"></div>
+                        </div>
+                        <p class="progress-text">Test Progress: <span id="progressText">0%</span></p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Test History Section -->
+            <section id="test-history" class="section">
+                <h1>Test History</h1>
+                <div class="history-container">
+                    <div class="filters">
+                        <select id="statusFilter">
+                            <option value="all">All Status</option>
+                            <option value="passed">Passed</option>
+                            <option value="failed">Failed</option>
+                        </select>
+                        <button class="btn secondary" onclick="sortByDate()">Sort by Date</button>
+                    </div>
+                    <div class="history-table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Test Case</th>
+                                    <th>Status</th>
+                                    <th>Run Date</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody id="historyTableBody">
+                                <!-- Table rows will be populated by JavaScript -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="pagination">
+                        <button class="btn secondary">Previous</button>
+                        <span>Page 1 of 3</span>
+                        <button class="btn secondary">Next</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Activity Logs Section -->
+            <section id="activity-logs" class="section">
+                <h1>Activity Logs</h1>
+                <div class="activity-container">
+                    <div class="filters">
+                        <select id="activityTypeFilter">
+                            <option value="all">All Activities</option>
+                            <option value="test">Test Runs</option>
+                            <option value="manual">Manual Tests</option>
+                            <option value="automated">Automated Tests</option>
+                        </select>
+                        <button class="btn secondary" onclick="sortActivityByDate()">Sort by Date</button>
+                    </div>
+                    <div class="activity-list" id="activityList">
+                        <!-- Activity items will be populated by JavaScript -->
+                    </div>
+                    <div class="pagination">
+                        <button class="btn secondary">Previous</button>
+                        <span>Page 1 of 3</span>
+                        <button class="btn secondary">Next</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 

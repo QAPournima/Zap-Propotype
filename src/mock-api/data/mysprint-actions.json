@@ -1,0 +1,122 @@
+[
+  {
+    "jiraId": "QA-113",
+    "issueType": "Bug",
+    "summary": "Bug: Messages section displayed on the Inbox screen-demo Story",
+    "parentKey": "QA-18",
+    "timestamp": "2025-06-05T14:27:00.258Z",
+    "action": "Create Bug"
+  },
+  {
+    "jiraId": "QA-114",
+    "issueType": "Task",
+    "summary": "Task: demo",
+    "parentKey": "QA-1",
+    "timestamp": "2025-06-05T14:27:02.277Z",
+    "action": "Create Test Case"
+  },
+  {
+    "jiraId": "QA-115",
+    "issueType": "Task",
+    "summary": "Task: **Summary:** Unable to login using Google SSO method",
+    "parentKey": "QA-4",
+    "timestamp": "2025-06-05T14:28:35.628Z",
+    "action": "Create Test Case"
+  },
+  {
+    "jiraId": "QA-116",
+    "issueType": "Bug",
+    "summary": "Bug: login to the web page",
+    "parentKey": "QA-3",
+    "timestamp": "2025-06-05T14:31:57.120Z",
+    "action": "Create Bug"
+  },
+  {
+    "jiraId": "QA-117",
+    "issueType": "Task",
+    "summary": "Task: login",
+    "parentKey": "QA-2",
+    "timestamp": "2025-06-05T14:31:59.227Z",
+    "action": "Create Test Case"
+  },
+  {
+    "jiraId": "QA-118",
+    "issueType": "Bug",
+    "summary": "Bug: demo",
+    "parentKey": "QA-1",
+    "timestamp": "2025-06-05T14:32:15.535Z",
+    "action": "Create Bug"
+  },
+  {
+    "jiraId": "QA-119",
+    "issueType": "Task",
+    "summary": "Task: Summary: Access Call History via Top Left Icon on Inbox Screen as an Agent",
+    "parentKey": "QA-47",
+    "timestamp": "2025-06-05T14:46:28.673Z",
+    "action": "Create Test Case"
+  },
+  {
+    "jiraId": "QA-120",
+    "issueType": "Task",
+    "summary": "Task: Messages section displayed on the Inbox screen-demo Story",
+    "parentKey": "QA-18",
+    "timestamp": "2025-06-05T14:46:51.449Z",
+    "action": "Create Test Case"
+  },
+  {
+    "jiraId": "QA-121",
+    "issueType": "Task",
+    "summary": "Task: Summary: Access Call History via the Top Left History Icon on Inbox Screen for Agents",
+    "parentKey": "QA-48",
+    "timestamp": "2025-06-05T14:51:46.186Z",
+    "action": "Create Test Case"
+  },
+  {
+    "jiraId": "QA-122",
+    "issueType": "Task",
+    "summary": "Task: Summary: Access Call History via Top Left Icon on Inbox Screen as an Agent",
+    "parentKey": "QA-47",
+    "timestamp": "2025-06-05T15:01:14.523Z",
+    "action": "Create Test Case"
+  },
+  {
+    "jiraId": "QA-123",
+    "issueType": "Bug",
+    "summary": "Bug: Summary: Access Call History via the Top Left History Icon on Inbox Screen for Agents",
+    "parentKey": "QA-48",
+    "timestamp": "2025-06-05T15:01:51.111Z",
+    "action": "Create Bug"
+  },
+  {
+    "jiraId": "QA-124",
+    "issueType": "Task",
+    "summary": "Task: Summary: Access Call History via Top Left Icon on Inbox Screen as an Agent",
+    "parentKey": "QA-47",
+    "timestamp": "2025-06-05T15:13:13.850Z",
+    "action": "Create Test Case"
+  },
+  {
+    "jiraId": "QA-125",
+    "issueType": "Bug",
+    "summary": "Bug: not able to send msg to local number form international number getting unknow error please try again ",
+    "parentKey": "QA-47",
+    "timestamp": "2025-06-05T15:26:31.952Z",
+    "action": "Create Bug"
+  },
+  {
+    "jiraId": "QA-126",
+    "issueType": "Task",
+    "summary": "Task: Summary: Access Call History via the Top Left History Icon on Inbox Screen for Agents",
+    "parentKey": "QA-48",
+    "timestamp": "2025-06-05T15:47:00.433Z",
+    "action": "Create Test Case"
+  },
+  {
+    "jiraId": "QA-127",
+    "issueType": "Task",
+    "summary": "Task: Summary: Access Call History via Top Left Icon on Inbox Screen as an Agent",
+    "parentKey": "QA-47",
+    "timestamp": "2025-06-05T21:26:50.617Z",
+    "action": "Create Test Case"
+  }
+]

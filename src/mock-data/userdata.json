@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Ridhi G",
+    "email": "test@zap.com",
+    "password": "Test@123",
+    "verified": true
+  },
+  {
+    "name": "Jane Smith",
+    "email": "jane.smith@example.com",
+    "password": "SecurePass456!",
+    "verified": true
+  }
+] 

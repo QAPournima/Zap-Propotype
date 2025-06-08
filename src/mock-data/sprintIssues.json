@@ -1,0 +1,9 @@
+[
+  { "id": "SCRUM-1", "summary": "Login", "type": "Story", "status": "To Do", "assignee": "Alice" },
+  { "id": "SCRUM-7", "summary": "Test cases for user story: SCRUM-1", "type": "Test", "status": "To Do", "assignee": "Bob" },
+  { "id": "SCRUM-2", "summary": "demo US", "type": "Story", "status": "To Do", "assignee": "Charlie" },
+  { "id": "SCRUM-3", "summary": "test case demo", "type": "Story", "status": "In Progress", "assignee": "QA Team" },
+  { "id": "SCRUM-118", "summary": "test user story poc", "type": "Story", "status": "In Progress", "assignee": "PM" },
+  { "id": "SCRUM-164", "summary": "CLONE - Login", "type": "Story", "status": "In Progress", "assignee": "Alice" },
+  { "id": "SCRUM-8", "summary": "Test cases for user story: scrum-1", "type": "Test", "status": "In Progress", "assignee": "Bob" }
+] 

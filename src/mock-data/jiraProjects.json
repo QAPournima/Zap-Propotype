@@ -1,0 +1,9 @@
+[
+  { "id": "SCRUM", "name": " Scrum Team (SCRUM)"},
+  { "id": "WEB", "name": "WebApp (WEB)"},
+  { "id": "WR", "name": "Work requests (WR)"},
+  { "id": "QA", "name": "QA (QA)"},
+  { "id": "DEV", "name": "Dev (DEV)"},
+  { "id": "IOS", "name": "iOS (IOS)" },
+  { "id": "ANDROID", "name": "Android (AND)" }
+] 

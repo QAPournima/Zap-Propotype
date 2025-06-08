@@ -1,0 +1,518 @@
+[
+  {
+    "id": 1,
+    "title": "Login Test Case",
+    "description": "Test case for login functionality",
+    "Request Type": "Test Case",
+    "status": "new",
+    "Output Type": "Test Report",
+    "createdDate": "2024-06-01",
+    "user": "Alice",
+    "actionType": "Created"
+  },
+  {
+    "id": 2,
+    "title": "Bug: Login Error",
+    "description": "Bug found in login validation",
+    "Request Type": "Bug",
+    "status": "in progress",
+    "Output Type": "Bug Report",
+    "createdDate": "2024-06-02",
+    "user": "Bob",
+    "actionType": "Created"
+  },
+  {
+    "id": 3,
+    "title": "User Story: Registration",
+    "description": "As a user, I want to register",
+    "Request Type": "User Story",
+    "status": "done",
+    "Output Type": "Story PDF",
+    "createdDate": "2024-06-03",
+    "user": "Charlie",
+    "actionType": "Reviewed"
+  },
+  {
+    "id": 4,
+    "title": "Automation: Checkout Flow",
+    "description": "Automated script for checkout",
+    "Request Type": "Automation",
+    "status": "failed",
+    "Output Type": "Automation Script",
+    "createdDate": "2024-06-04",
+    "user": "QA Team",
+    "actionType": "Created"
+  },
+  {
+    "id": 5,
+    "title": "Bug: Payment Gateway",
+    "description": "Payment gateway not responding",
+    "Request Type": "Bug",
+    "status": "cancel",
+    "Output Type": "Bug Report",
+    "createdDate": "2024-06-05",
+    "user": "PM",
+    "actionType": "Deleted"
+  },
+  {
+    "id": 6,
+    "title": "Test Case: Profile Update",
+    "description": "Test case for updating user profile",
+    "Request Type": "Test Case",
+    "status": "done",
+    "Output Type": "Test Report",
+    "createdDate": "2024-06-06",
+    "user": "Alice",
+    "actionType": "Reviewed"
+  },
+  {
+    "id": 7,
+    "title": "User Story: Password Reset",
+    "description": "As a user, I want to reset my password",
+    "Request Type": "User Story",
+    "status": "in progress",
+    "Output Type": "Story PDF",
+    "createdDate": "2024-06-07",
+    "user": "Bob",
+    "actionType": "Updated"
+  },
+  {
+    "id": 8,
+    "title": "Automation: Email Notification",
+    "description": "Automated script for email notifications",
+    "Request Type": "Automation",
+    "status": "new",
+    "Output Type": "Automation Script",
+    "createdDate": "2024-06-08",
+    "user": "Charlie",
+    "actionType": "Created"
+  },
+  {
+    "id": 9,
+    "title": "Bug: UI Overlap",
+    "description": "UI elements overlap on mobile",
+    "Request Type": "Bug",
+    "status": "done",
+    "Output Type": "Bug Report",
+    "createdDate": "2024-06-09",
+    "user": "QA Team",
+    "actionType": "Reviewed"
+  },
+  {
+    "id": 10,
+    "title": "Test Case: Logout",
+    "description": "Test case for logout functionality",
+    "Request Type": "Test Case",
+    "status": "failed",
+    "Output Type": "Test Report",
+    "createdDate": "2024-06-10",
+    "user": "PM",
+    "actionType": "Deleted"
+  },
+  {
+    "id": 11,
+    "title": "User Story: Dashboard",
+    "description": "As a user, I want a dashboard overview",
+    "Request Type": "User Story",
+    "status": "new",
+    "Output Type": "Story PDF",
+    "createdDate": "2024-06-11",
+    "user": "Alice",
+    "actionType": "Created"
+  },
+  {
+    "id": 12,
+    "title": "Automation: Data Export",
+    "description": "Automated script for exporting data",
+    "Request Type": "Automation",
+    "status": "done",
+    "Output Type": "Automation Script",
+    "createdDate": "2024-06-12",
+    "user": "Bob",
+    "actionType": "Reviewed"
+  },
+  {
+    "id": 13,
+    "title": "Bug: Notification Delay",
+    "description": "Notifications are delayed by 5 minutes",
+    "Request Type": "Bug",
+    "status": "in progress",
+    "Output Type": "Bug Report",
+    "createdDate": "2024-06-13",
+    "user": "Charlie",
+    "actionType": "Updated"
+  },
+  {
+    "id": 14,
+    "title": "Test Case: Profile Picture Upload",
+    "description": "Test case for uploading profile picture",
+    "Request Type": "Test Case",
+    "status": "cancel",
+    "Output Type": "Test Report",
+    "createdDate": "2024-06-14",
+    "user": "QA Team",
+    "actionType": "Deleted"
+  },
+  {
+    "id": 15,
+    "title": "User Story: Settings Page",
+    "description": "As a user, I want to update my settings",
+    "Request Type": "User Story",
+    "status": "done",
+    "Output Type": "Story PDF",
+    "createdDate": "2024-06-15",
+    "user": "PM",
+    "actionType": "Reviewed"
+  },
+  {
+    "title": "Manual Test 3",
+    "description": "Automated test executed. Status: passed.",
+    "Request Type": "Jira id",
+    "status": "Passed",
+    "Output Type": "Automation Script",
+    "createdDate": "2025-06-06",
+    "id": 16
+  },
+  {
+    "title": "Manual Test 4",
+    "description": "Automated test executed. Status: failed.",
+    "Request Type": "Jira id",
+    "status": "Failed",
+    "Output Type": "Automation Script",
+    "createdDate": "2025-06-06",
+    "id": 17
+  },
+  {
+    "title": "Manual Test 4",
+    "description": "Automated test executed. Status: failed.",
+    "Request Type": "Jira id",
+    "status": "Failed",
+    "Output Type": "Automation Script",
+    "createdDate": "2025-06-06",
+    "id": 18
+  },
+  {
+    "title": "Manual Test 4",
+    "description": "Automated test rerun. Status: failed.",
+    "Request Type": "Jira id",
+    "status": "Failed",
+    "Output Type": "Automation Script",
+    "createdDate": "2025-06-06",
+    "id": 19
+  },
+  {
+    "title": "Manual Test 3",
+    "description": "Automated test rerun. Status: passed.",
+    "Request Type": "Jira id",
+    "status": "Passed",
+    "Output Type": "Automation Script",
+    "createdDate": "2025-06-06",
+    "id": 20
+  },
+  {
+    "title": "Manual Test 4",
+    "description": "Automated test rerun. Status: failed.",
+    "Request Type": "Jira id",
+    "status": "Failed",
+    "Output Type": "Automation Script",
+    "createdDate": "2025-06-06",
+    "id": 21
+  },
+  {
+    "title": "Manual Test 5",
+    "description": "Automated test executed. Status: failed.",
+    "Request Type": "Jira id",
+    "status": "Failed",
+    "Output Type": "Automation Script",
+    "createdDate": "2025-06-06",
+    "id": 22
+  },
+  {
+    "title": "Manual Test 5",
+    "description": "Automated test rerun. Status: failed.",
+    "Request Type": "Jira id",
+    "status": "Failed",
+    "Output Type": "Automation Script",
+    "createdDate": "2025-06-06",
+    "id": 23
+  },
+  {
+    "title": "Manual Test 5",
+    "description": "Automated test executed. Status: failed.",
+    "Request Type": "Jira id",
+    "status": "Failed",
+    "Output Type": "Automation Script",
+    "createdDate": "2025-06-06",
+    "id": 24
+  },
+  {
+    "title": "Manual Test 5",
+    "description": "Automated test rerun. Status: failed.",
+    "Request Type": "Jira id",
+    "status": "Failed",
+    "Output Type": "Automation Script",
+    "createdDate": "2025-06-06",
+    "id": 25
+  },
+  {
+    "title": "Manual Test 1",
+    "description": "Automated test executed. Status: passed.",
+    "Request Type": "Jira id",
+    "status": "Passed",
+    "Output Type": "Automation Script",
+    "createdDate": "2025-06-06",
+    "id": 26
+  },
+  {
+    "title": "Manual Test 5",
+    "description": "Automated test executed. Status: failed.",
+    "Request Type": "Jira id",
+    "status": "Failed",
+    "Output Type": "Automation Script",
+    "createdDate": "2025-06-06",
+    "id": 27
+  },
+  {
+    "title": "Manual Test 1",
+    "description": "Automated test rerun. Status: passed.",
+    "Request Type": "Jira id",
+    "status": "Passed",
+    "Output Type": "Automation Script",
+    "createdDate": "2025-06-06",
+    "id": 28
+  },
+  {
+    "title": "Manual Test 1",
+    "description": "Automated test rerun. Status: passed.",
+    "Request Type": "Jira id",
+    "status": "Passed",
+    "Output Type": "Automation Script",
+    "createdDate": "2025-06-06",
+    "id": 29
+  },
+  {
+    "title": "Manual Test 1",
+    "description": "Automated test rerun. Status: passed.",
+    "Request Type": "Jira id",
+    "status": "Passed",
+    "Output Type": "Automation Script",
+    "createdDate": "2025-06-06",
+    "id": 30
+  },
+  {
+    "title": "Manual Test 5",
+    "description": "Automated test rerun. Status: failed.",
+    "Request Type": "Jira id",
+    "status": "Failed",
+    "Output Type": "Automation Script",
+    "createdDate": "2025-06-06",
+    "id": 31
+  },
+  {
+    "title": "Manual Test 4",
+    "description": "Automated test executed. Status: failed.",
+    "Request Type": "Jira id",
+    "status": "Failed",
+    "Output Type": "Automation Script",
+    "createdDate": "2025-06-06",
+    "id": 32
+  },
+  {
+    "title": "Manual Test 5",
+    "description": "Automated test executed. Status: failed.",
+    "Request Type": "Jira id",
+    "status": "Failed",
+    "Output Type": "Automation Script",
+    "createdDate": "2025-06-06",
+    "id": 33
+  },
+  {
+    "title": "Manual Test 5",
+    "description": "Automated test executed. Status: failed.",
+    "Request Type": "Jira id",
+    "status": "Failed",
+    "Output Type": "Automation Script",
+    "createdDate": "2025-06-06",
+    "id": 34
+  },
+  {
+    "title": "Manual Test 3",
+    "description": "Automated test executed. Status: passed.",
+    "Request Type": "Jira id",
+    "status": "Passed",
+    "Output Type": "Automation Script",
+    "createdDate": "2025-06-06",
+    "id": 35
+  },
+  {
+    "title": "Manual Test 5",
+    "description": "Automated test executed. Status: failed.",
+    "Request Type": "Jira id",
+    "status": "Failed",
+    "Output Type": "Automation Script",
+    "createdDate": "2025-06-06",
+    "id": 36
+  },
+  {
+    "title": "Manual Test 5",
+    "description": "Automated test executed. Status: failed.",
+    "Request Type": "Jira id",
+    "status": "Failed",
+    "Output Type": "Automation Script",
+    "createdDate": "2025-06-06",
+    "id": 37
+  },
+  {
+    "title": "Manual Test 5",
+    "description": "Automated test executed. Status: failed.",
+    "Request Type": "Jira id",
+    "status": "Failed",
+    "Output Type": "Automation Script",
+    "createdDate": "2025-06-06",
+    "id": 38
+  },
+  {
+    "title": "Manual Test 5",
+    "description": "Automated test executed. Status: failed.",
+    "Request Type": "Jira id",
+    "status": "Failed",
+    "Output Type": "Automation Script",
+    "createdDate": "2025-06-06",
+    "id": 39
+  },
+  {
+    "title": "Manual Test 5",
+    "description": "Automated test executed. Status: failed.",
+    "Request Type": "Jira id",
+    "status": "Failed",
+    "Output Type": "Automation Script",
+    "createdDate": "2025-06-06",
+    "id": 40
+  },
+  {
+    "title": "Manual Test 5",
+    "description": "Automated test executed. Status: failed.",
+    "Request Type": "Jira id",
+    "status": "Failed",
+    "Output Type": "Automation Script",
+    "createdDate": "2025-06-06",
+    "id": 41
+  },
+  {
+    "title": "Manual Test 4",
+    "description": "Automated test executed. Status: failed.",
+    "Request Type": "Jira id",
+    "status": "Failed",
+    "Output Type": "Automation Script",
+    "createdDate": "2025-06-06",
+    "id": 42
+  },
+  {
+    "title": "Manual Test 5",
+    "description": "Automated test executed. Status: failed.",
+    "Request Type": "Jira id",
+    "status": "Failed",
+    "Output Type": "Automation Script",
+    "createdDate": "2025-06-06",
+    "id": 43
+  },
+  {
+    "title": "Manual Test 5",
+    "description": "Automated test executed. Status: failed.",
+    "Request Type": "Jira id",
+    "status": "Failed",
+    "Output Type": "Automation Script",
+    "createdDate": "2025-06-06",
+    "id": 44
+  },
+  {
+    "title": "Manual Test 5",
+    "description": "Automated test executed. Status: failed.",
+    "Request Type": "Jira id",
+    "status": "Failed",
+    "Output Type": "Automation Script",
+    "createdDate": "2025-06-06",
+    "id": 45
+  },
+  {
+    "title": "Manual Test 5",
+    "description": "Automated test executed. Status: failed.",
+    "Request Type": "Jira id",
+    "status": "Failed",
+    "Output Type": "Automation Script",
+    "createdDate": "2025-06-06",
+    "id": 46
+  },
+  {
+    "title": "Manual Test 5",
+    "description": "Automated test executed. Status: failed.",
+    "Request Type": "Jira id",
+    "status": "Failed",
+    "Output Type": "Automation Script",
+    "createdDate": "2025-06-06",
+    "id": 47
+  },
+  {
+    "title": "Manual Test 5",
+    "description": "Automated test rerun. Status: failed.",
+    "Request Type": "Jira id",
+    "status": "Failed",
+    "Output Type": "Automation Script",
+    "createdDate": "2025-06-06",
+    "id": 48
+  },
+  {
+    "title": "Manual Test 5",
+    "description": "Automated test rerun. Status: failed.",
+    "Request Type": "Jira id",
+    "status": "Failed",
+    "Output Type": "Automation Script",
+    "createdDate": "2025-06-06",
+    "id": 49
+  },
+  {
+    "title": "Manual Test 5",
+    "description": "Automated test executed. Status: failed.",
+    "Request Type": "Jira id",
+    "status": "Failed",
+    "Output Type": "Automation Script",
+    "createdDate": "2025-06-06",
+    "id": 50
+  },
+  {
+    "title": "Automated Test: Test Case QA-115",
+    "description": "Automated test executed. Status: failed.",
+    "Request Type": "Automated Test",
+    "status": "Failed",
+    "Output Type": "Test Report",
+    "createdDate": "2025-06-07",
+    "id": 51
+  },
+  {
+    "title": "Automated Test: Manual Test 12",
+    "description": "Automated test executed. Status: failed.",
+    "Request Type": "Jira id",
+    "status": "Failed",
+    "Output Type": "Automation Script",
+    "createdDate": "2025-06-07",
+    "id": 52
+  },
+  {
+    "title": "Automated Test: Manual Test 13",
+    "description": "Automated test executed. Status: failed.",
+    "Request Type": "Test Case",
+    "status": "Failed",
+    "Output Type": "Test Report",
+    "createdDate": "2025-06-07",
+    "id": 53
+  },
+  {
+    "title": "Manual Test Run: ",
+    "description": "Manual test execution for ",
+    "Request Type": "Test Case",
+    "status": "in progress",
+    "Output Type": "Test Report",
+    "createdDate": "2025-06-07",
+    "id": 54
+  }
+]

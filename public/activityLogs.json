@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Login Test",
+    "Request Type": "Jira id",
+    "status": "Passed",
+    "createdDate": "2024-06-01",
+    "Output Type": "PDF"
+  },
+  {
+    "id": 2,
+    "title": "Signup Test",
+    "Request Type": "PDF",
+    "status": "Failed",
+    "createdDate": "2024-06-02",
+    "Output Type": "Automation Script"
+  },
+  {
+    "id": 3,
+    "title": "Profile Update",
+    "Request Type": "Web Link",
+    "status": "In Progress",
+    "createdDate": "2024-06-03",
+    "Output Type": "Jira Ticket"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "type": "navigation",
+    "value": "https://www.google.com/"
+  },
+  {
+    "type": "click",
+    "value": "div.Fvgjgc:nth-of-type(2) > div.HTjtde:nth-of-type(2) > div.jw8m2:nth-of-type(3) > span > div.KxvLwc > div.HOq4Me.wX2YHc > div.dbsFrd > div.spokVd:nth-of-type(3) > div.GzjMJd > button.tHLp8d:nth-of-type(2) > div.QS5gu.sy4vM"
+  },
+  {
+    "type": "navigation",
+    "value": "https://www.google.com/search?q=do+a+barrel+roll&cfs=bf&ct=fi&cad=2:playful&ei=wJFaK7wOKohbIPqOnmjQCw&ved=0ahUKEwj_u_o_Ny-GNAxUiVEEAHa-i00XEQuRsiEwcrtc=j"
+  },
+  {
+    "type": "navigation",
+    "value": "about:blank"
+  },
+  {
+    "type": "navigation",
+    "value": "https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Ddo%2Ba%2Bbarrel%2Broll%26cfs%3Dbf%26ct%3Dfi%26cad%3D2:playful%26ei%3DwJFaK7wOKohbIPqOnmjQCw%26ved%3D0ahUKEwj_u_o_Ny-GNAxUiVEEAHa-i00XEQuRsiEwcrtc%3DsjDwmFJ8tThRbIP9PSbQ8Sq=EhAqBLgKBGDx0AExwKQYGRfqfGfQICjIGXy6WE4vSytSWJMi4nGfWtsF_d_8vi67K9Kp3LiiLag3J5bZrq2GT083s9AVJaAUM"
+  },
+  {
+    "type": "navigation",
+    "value": "about:blank"
+  },
+  {
+    "type": "navigation",
+    "value": "https://www.google.com/recaptcha/api2/bframe?hl=en&v=GUGrL5YkSwqiwrZ03SHKDuk=6LDLLIMbAAAAll-KLj9plePhM-4LCCDbjtJLqRQ"
+  }
+] 
