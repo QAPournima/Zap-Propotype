@@ -21,6 +21,11 @@ import LiveTest from './pages/LiveTest';
 import AutomatedTest from './pages/AutomationTest';
 import Login from './pages/Login';
 
+function PrivateRoute({ children }) {
+  const isLoggedIn = localStorage.getItem('isLoggedIn') === 'true';
+  return isLoggedIn ? children : <Navigate to="/login" replace />;
+}
+
 function AppRoutes(props) {
   const location = useLocation();
   const {
@@ -53,7 +58,13 @@ function AppRoutes(props) {
         <Sidebar collapsed={sidebarCollapsed} setCollapsed={setSidebarCollapsed} />
         <main className={`flex-1 overflow-auto transition-all duration-300 ${sidebarCollapsed ? 'ml-16' : 'ml-60'}`}> 
           <Routes>
-            <Route path="/dashboard" element={<Dashboard {...chatProps} />} />
+            <Route path="/" element={<Navigate to="/login" replace />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/dashboard" element={
+              <PrivateRoute>
+                <Dashboard {...chatProps} />
+              </PrivateRoute>
+            } />
             <Route path="/activity" element={<ActivityLogs refreshKey={activityLogsRefreshKey} {...chatProps} />} />
             <Route path="/settings" element={<Settings themeMode={themeMode} setThemeMode={setThemeMode} />} />
             <Route path="/settings/jira" element={<JiraSettings />} />
@@ -65,7 +76,6 @@ function AppRoutes(props) {
             <Route path="/my-sprint" element={<MySprint />} />
             <Route path="/automatedtest" element={<AutomatedTest />} />
             <Route path="/AutomationTest" element={<AutomatedTest />} />
-            <Route path="/login" element={<Login />} />
           </Routes>
           {/* Floating Chat Open Button (global) */}
           {location.pathname !== '/ai-chatbot-assistan' && !chatOpen && (
