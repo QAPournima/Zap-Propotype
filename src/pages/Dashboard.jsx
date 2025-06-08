@@ -28,7 +28,7 @@ const Dashboard = () => {
   const [bugForm, setBugForm] = useState({ issueId: '', summary: '', detail: '' });
 
   useEffect(() => {
-    axios.get('/api/dashboard')
+    axios.get('/dashboard.json')
       .then(res => {
         setDashboardData(res.data);
         setError(null);
@@ -172,7 +172,7 @@ const Dashboard = () => {
       });
       setFormSuccess(`Task ${response.data.key} created successfully!`);
       setTaskForm({ issueId: '', summary: '', detail: '' });
-      axios.get('/api/dashboard')
+      axios.get('/dashboard.json')
         .then(res => {
           setDashboardData(res.data);
           setError(null);
@@ -208,7 +208,7 @@ const Dashboard = () => {
       });
       setFormSuccess(`User Story ${response.data.key} created successfully!`);
       setStoryForm({ issueId: '', summary: '', detail: '' });
-      axios.get('/api/dashboard')
+      axios.get('/dashboard.json')
         .then(res => {
           setDashboardData(res.data);
           setError(null);
@@ -244,7 +244,7 @@ const Dashboard = () => {
       });
       setFormSuccess(`Bug ${response.data.key} created successfully!`);
       setBugForm({ issueId: '', summary: '', detail: '' });
-      axios.get('/api/dashboard')
+      axios.get('/dashboard.json')
         .then(res => {
           setDashboardData(res.data);
           setError(null);
