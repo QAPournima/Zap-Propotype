@@ -1,0 +1,29 @@
+{
+  "aiService": "openai",
+  "openai": {
+    "url": "https://api.openai.com/v1/chat/completions",
+    "apiKey": "your openAI api key",
+    "model": "gpt-4"
+  },
+  "automation": {
+    "projectLocation": "your local project location",
+    "scriptLanguage": "java"
+  },
+  "jira": {
+    "url": "https://xxxx.atlassian.net/",
+    "username": "email id",
+    "apiToken": "your jira api key",
+    "projectId": "SCRUM",
+    "bugLinkType": "Blocks",
+    "testCaseLinkType": "Relates",
+    "testCaseIssueType": "task"
+  },
+  "testCaseFormat": "Gherkin",
+  "profile": {
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "avatar": ""
+  },
+  "integration": "jira"
+}

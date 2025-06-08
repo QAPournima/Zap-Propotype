@@ -1,0 +1,14 @@
+{
+  "enabled": false,
+  "baseUrl": "",
+  "apiToken": "",
+  "projectKey": "",
+  "syncEnabled": true,
+  "autoLinkEnabled": false,
+  "defaultAssignee": "",
+  "statusMapping": {
+    "To Do": "open",
+    "In Progress": "in_progress",
+    "Done": "completed"
+  }
+}

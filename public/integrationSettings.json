@@ -1,0 +1,13 @@
+{
+  "slack": {
+    "workspace": "Zap Workspace",
+    "token": "xoxb-1234567890"
+  },
+  "jira": null,
+  "testrail": null,
+  "tfs": null,
+  "github": null,
+  "gitlab": null,
+  "bitbucket": null,
+  "azure": null
+} 

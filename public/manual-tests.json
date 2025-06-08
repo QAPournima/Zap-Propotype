@@ -1,0 +1,1035 @@
+[
+  {
+    "name": "Manual Test 2",
+    "steps": [
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      },
+      {
+        "type": "navigation",
+        "url": "https://pournimacsm.wixsite.com/qapournima/blog"
+      },
+      {
+        "type": "navigation",
+        "url": "https://pournimacsm.wixsite.com/qapournima/blog"
+      },
+      {
+        "type": "click",
+        "selector": "#comp-kj9sx3ul1label",
+        "tag": "P"
+      },
+      {
+        "type": "navigation",
+        "url": "https://pournimacsm.wixsite.com/qapournima/blog"
+      },
+      {
+        "type": "navigation",
+        "url": "https://pournimacsm.wixsite.com/qapournima/projects"
+      },
+      {
+        "type": "click",
+        "selector": "#comp-kj9sx3ul0label",
+        "tag": "P"
+      },
+      {
+        "type": "navigation",
+        "url": "https://pournimacsm.wixsite.com/qapournima/projects"
+      },
+      {
+        "type": "navigation",
+        "url": "https://pournimacsm.wixsite.com/qapournima/resume"
+      }
+    ],
+    "timestamp": "2025-06-05T19:40:10.343Z"
+  },
+  {
+    "name": "Manual Test 3",
+    "steps": [
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      },
+      {
+        "type": "navigation",
+        "url": "https://pournimacsm.wixsite.com/qapournima/blog"
+      },
+      {
+        "type": "navigation",
+        "url": "https://pournimacsm.wixsite.com/qapournima/blog"
+      },
+      {
+        "type": "click",
+        "selector": "#comp-kj9sx3ul0label",
+        "tag": "P"
+      },
+      {
+        "type": "navigation",
+        "url": "https://pournimacsm.wixsite.com/qapournima/blog"
+      },
+      {
+        "type": "navigation",
+        "url": "https://pournimacsm.wixsite.com/qapournima/resume"
+      }
+    ],
+    "timestamp": "2025-06-05T20:02:23.846Z"
+  },
+  {
+    "name": "Manual Test 4",
+    "steps": [
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      },
+      {
+        "type": "navigation",
+        "url": "https://github.com/QAPournima?tab=overview&from=2025-06-01&to=2025-06-06"
+      },
+      {
+        "type": "navigation",
+        "url": "https://github.com/QAPournima?tab=overview&from=2025-06-01&to=2025-06-06"
+      },
+      {
+        "type": "navigation",
+        "url": "https://github.com/QAPournima?tab=overview&from=2025-06-01&to=2025-06-06"
+      },
+      {
+        "type": "navigation",
+        "url": "https://github.com/QAPournima?tab=overview&from=2025-06-01&to=2025-06-06"
+      },
+      {
+        "type": "click",
+        "selector": "div.logged-out.env-production.page-responsive.page-profile > div.application-main:nth-of-type(4) > main > div.container-xl.px-3.px-md-4.px-lg-5:nth-of-type(2) > div.Layout.Layout--flowRow-until-md.Layout--sidebarPosition-start.Layout--sidebarPosition-flowRow-start > div.Layout-sidebar > div.h-card.mt-5.mt-md-n5 > div.js-profile-editable-replace:nth-of-type(2) > div.d-flex.flex-column:nth-of-type(3) > div.js-profile-editable-area.d-flex.flex-column.d-md-block:nth-of-type(2) > ul.vcard-details > li.vcard-detail.pt-1:nth-of-type(2) > a.Link--primary.wb-break-all",
+        "tag": "A"
+      },
+      {
+        "type": "navigation",
+        "url": "https://pournimacsm.wixsite.com/qapournima"
+      },
+      {
+        "type": "navigation",
+        "url": "https://pournimacsm.wixsite.com/qapournima"
+      },
+      {
+        "type": "click",
+        "selector": "#comp-kj9sx3ul2label",
+        "tag": "P"
+      },
+      {
+        "type": "navigation",
+        "url": "https://pournimacsm.wixsite.com/qapournima"
+      },
+      {
+        "type": "navigation",
+        "url": "https://pournimacsm.wixsite.com/qapournima/blog"
+      },
+      {
+        "type": "navigation",
+        "url": "https://pournimacsm.wixsite.com/qapournima/post/qa-in-the-fast-lane-how-quality-assurance-is-evolving-with-speedy-software-delivery"
+      },
+      {
+        "type": "navigation",
+        "url": "https://pournimacsm.wixsite.com/qapournima/post/qa-in-the-fast-lane-how-quality-assurance-is-evolving-with-speedy-software-delivery"
+      },
+      {
+        "type": "click",
+        "selector": "div > div.main_MF > div.overflow-clip-in-mobile.site-root:nth-of-type(4) > div.mesh-layout.overflow-x-clip-in-mobile.masterPage.css-editing-scope > main.PAGES_CONTAINER > div.JsJXaX.SITE_PAGES > div.AnQkDU > div.dBAkHi.xy32v > div.HT5ybB:nth-of-type(2) > div.Containerxy32v.SPY_vo > div > div > section.Oqnisf.comp-mah1m6nk.wixui-section > div:nth-of-type(2) > div > div.TWFxr5 > div.TPAMultiSection_magy3zsv > div > div > div.md.lt-lg.lt-xl.gt-xs.gt-s.gt-sm.gt-740.gt-830.gt-886.gt-940.w686-980.lte-w980.lte-banner-w1564.lte-banner-w1425.lte-banner-w1181.lte-banner-w980.lte-category-header-w1364.urT2WH > div.L5x0Fp.xZVb1s.is-desktop.app-desktop:nth-of-type(2) > div:nth-of-type(3) > div.ZL4A4N:nth-of-type(2) > div.HcBlwg:nth-of-type(3) > div.zp8IQu > div > div.EcwjNF > article.tgMH9T > div.HW6ttf > footer.PhCafd.B6ltWa > div.PKQ95p > div.KVKbzt.aQg0ny > section.Xyiv4I:nth-of-type(3) > div.FyFkaC:nth-of-type(2) > div.yFrqzV:nth-of-type(2) > button.Kh5HMz > span.h7K_lu:nth-of-type(2) > span.like-button.G5Aa3J.jSxrNf.FfDJdv:nth-of-type(2) > svg. > path.",
+        "tag": "path"
+      },
+      {
+        "type": "click",
+        "selector": "div > div.main_MF > div.overflow-clip-in-mobile.site-root:nth-of-type(4) > div.mesh-layout.overflow-x-clip-in-mobile.masterPage.css-editing-scope > main.PAGES_CONTAINER > div.JsJXaX.SITE_PAGES > div.AnQkDU > div.dBAkHi.xy32v > div.HT5ybB:nth-of-type(2) > div.Containerxy32v.SPY_vo > div > div > section.Oqnisf.comp-mah1m6nk.wixui-section > div:nth-of-type(2) > div > div.TWFxr5 > div.TPAMultiSection_magy3zsv > div > div > div.md.lt-lg.lt-xl.gt-xs.gt-s.gt-sm.gt-740.gt-830.gt-886.gt-940.w686-980.lte-w980.lte-banner-w1564.lte-banner-w1425.lte-banner-w1181.lte-banner-w980.lte-category-header-w1364.urT2WH > div.L5x0Fp.xZVb1s.is-desktop.app-desktop:nth-of-type(2) > div:nth-of-type(3) > div.ZL4A4N:nth-of-type(2) > div.HcBlwg:nth-of-type(3) > div.zp8IQu.zp8s_J:nth-of-type(2) > div > section.oY1ew3 > section > div.zHLEBV > article.qbu2Gh > div.dkbPQd > div.ZnRZP5",
+        "tag": "DIV"
+      },
+      {
+        "type": "click",
+        "selector": "div > div.main_MF > div.overflow-clip-in-mobile.site-root:nth-of-type(4) > div.mesh-layout.overflow-x-clip-in-mobile.masterPage.css-editing-scope > main.PAGES_CONTAINER > div.JsJXaX.SITE_PAGES > div.AnQkDU > div.dBAkHi.xy32v > div.HT5ybB:nth-of-type(2) > div.Containerxy32v.SPY_vo > div > div > section.Oqnisf.comp-mah1m6nk.wixui-section > div:nth-of-type(2) > div > div.TWFxr5 > div.TPAMultiSection_magy3zsv > div > div > div.md.lt-lg.lt-xl.gt-xs.gt-s.gt-sm.gt-740.gt-830.gt-886.gt-940.w686-980.lte-w980.lte-banner-w1564.lte-banner-w1425.lte-banner-w1181.lte-banner-w980.lte-category-header-w1364.urT2WH > div.L5x0Fp.xZVb1s.is-desktop.app-desktop:nth-of-type(2) > div:nth-of-type(3) > div.ZL4A4N:nth-of-type(2) > div.HcBlwg:nth-of-type(3) > div.zp8IQu.zp8s_J:nth-of-type(2) > div > section.oY1ew3 > section > div.zHLEBV > article.qbu2Gh > div.dkbPQd > div.ZnRZP5 > footer.LO60EX > div.wChIrD:nth-of-type(2) > button.Kh5HMz > span.h7K_lu:nth-of-type(2) > span.like-button.G5Aa3J.jSxrNf.FfDJdv:nth-of-type(2) > svg. > path.",
+        "tag": "path"
+      },
+      {
+        "type": "click",
+        "selector": "div > div.main_MF > div.overflow-clip-in-mobile.site-root:nth-of-type(4) > div.mesh-layout.overflow-x-clip-in-mobile.masterPage.css-editing-scope > main.PAGES_CONTAINER > div.JsJXaX.SITE_PAGES > div.AnQkDU > div.dBAkHi.xy32v > div.HT5ybB:nth-of-type(2) > div.Containerxy32v.SPY_vo > div > div > section.Oqnisf.comp-mah1m6nk.wixui-section > div:nth-of-type(2) > div > div.TWFxr5 > div.TPAMultiSection_magy3zsv > div > div > div.md.lt-lg.lt-xl.gt-xs.gt-s.gt-sm.gt-740.gt-830.gt-886.gt-940.w686-980.lte-w980.lte-banner-w1564.lte-banner-w1425.lte-banner-w1181.lte-banner-w980.lte-category-header-w1364.urT2WH > div.L5x0Fp.xZVb1s.is-desktop.app-desktop:nth-of-type(2) > div:nth-of-type(3) > div.ZL4A4N:nth-of-type(2) > div.HcBlwg:nth-of-type(3) > div.zp8IQu.zp8s_J:nth-of-type(2) > div > section.oY1ew3 > section > div.zHLEBV > article.qbu2Gh:nth-of-type(2) > div.dkbPQd > div.ZnRZP5 > footer.LO60EX > div.wChIrD:nth-of-type(2) > button.Kh5HMz > span.h7K_lu:nth-of-type(2) > span.like-button.G5Aa3J.jSxrNf.FfDJdv:nth-of-type(2) > svg. > path.",
+        "tag": "path"
+      },
+      {
+        "type": "click",
+        "selector": "div > div.main_MF > div.overflow-clip-in-mobile.site-root:nth-of-type(4) > div.mesh-layout.overflow-x-clip-in-mobile.masterPage.css-editing-scope > main.PAGES_CONTAINER > div.JsJXaX.SITE_PAGES > div.AnQkDU > div.dBAkHi.xy32v > div.HT5ybB:nth-of-type(2) > div.Containerxy32v.SPY_vo > div > div > section.Oqnisf.comp-mah1m6nk.wixui-section > div:nth-of-type(2) > div > div.TWFxr5 > div.TPAMultiSection_magy3zsv > div > div > div.md.lt-lg.lt-xl.gt-xs.gt-s.gt-sm.gt-740.gt-830.gt-886.gt-940.w686-980.lte-w980.lte-banner-w1564.lte-banner-w1425.lte-banner-w1181.lte-banner-w980.lte-category-header-w1364.urT2WH > div.L5x0Fp.xZVb1s.is-desktop.app-desktop:nth-of-type(2) > div:nth-of-type(3) > div.ZL4A4N:nth-of-type(2) > div.HcBlwg:nth-of-type(3) > div.zp8IQu.zp8s_J:nth-of-type(2) > div > section.oY1ew3 > section > div.zHLEBV > article.qbu2Gh:nth-of-type(3) > div.dkbPQd > div.ZnRZP5 > footer.LO60EX > div.wChIrD:nth-of-type(2) > button.Kh5HMz > span.h7K_lu:nth-of-type(2) > span.like-button.G5Aa3J.jSxrNf.FfDJdv:nth-of-type(2) > svg. > path.",
+        "tag": "path"
+      }
+    ],
+    "timestamp": "2025-06-06T22:23:40.522Z"
+  },
+  {
+    "name": "test case update test",
+    "steps": [
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      },
+      {
+        "type": "navigation",
+        "url": "https://github.com/QAPournima?tab=overview&from=2025-06-01&to=2025-06-06"
+      },
+      {
+        "type": "navigation",
+        "url": "https://github.com/QAPournima?tab=overview&from=2025-06-01&to=2025-06-06"
+      },
+      {
+        "type": "navigation",
+        "url": "https://github.com/QAPournima?tab=overview&from=2025-06-01&to=2025-06-06"
+      },
+      {
+        "type": "navigation",
+        "url": "https://github.com/QAPournima?tab=overview&from=2025-06-01&to=2025-06-06"
+      },
+      {
+        "type": "click",
+        "selector": "div.logged-out.env-production.page-responsive.page-profile > div.application-main:nth-of-type(4) > main > div.container-xl.px-3.px-md-4.px-lg-5:nth-of-type(2) > div.Layout.Layout--flowRow-until-md.Layout--sidebarPosition-start.Layout--sidebarPosition-flowRow-start > div.Layout-sidebar",
+        "tag": "DIV"
+      },
+      {
+        "type": "click",
+        "selector": "div.logged-out.env-production.page-responsive.page-profile > div.application-main:nth-of-type(4) > main > div.container-xl.px-3.px-md-4.px-lg-5:nth-of-type(2) > div.Layout.Layout--flowRow-until-md.Layout--sidebarPosition-start.Layout--sidebarPosition-flowRow-start > div.Layout-main:nth-of-type(2) > turbo-frame > div.position-relative > div.mt-4.position-relative:nth-of-type(3) > div.activity-listing.contribution-activity:nth-of-type(2) > form.ajax-pagination-form.js-ajax-pagination.js-show-more-timeline-form.col-lg-10.col-12 > button.ajax-pagination-btn.btn.width-full.f6.mt-0.py-2.contribution-activity-show-more",
+        "tag": "BUTTON"
+      },
+      {
+        "type": "navigation",
+        "url": "https://github.com/QAPournima?tab=overview&from=2025-05-01&to=2025-05-31"
+      },
+      {
+        "type": "click",
+        "selector": "div.logged-out.env-production.page-responsive.page-profile > div.application-main:nth-of-type(4) > main > div.container-xl.px-3.px-md-4.px-lg-5:nth-of-type(2) > div.Layout.Layout--flowRow-until-md.Layout--sidebarPosition-start.Layout--sidebarPosition-flowRow-start > div.Layout-main:nth-of-type(2) > turbo-frame > div.position-relative > div.mt-4.position-relative:nth-of-type(3) > div.activity-listing.contribution-activity:nth-of-type(2) > form.ajax-pagination-form.js-ajax-pagination.js-show-more-timeline-form.col-lg-10.col-12 > button.ajax-pagination-btn.btn.width-full.f6.mt-0.py-2.contribution-activity-show-more",
+        "tag": "BUTTON"
+      },
+      {
+        "type": "navigation",
+        "url": "https://github.com/QAPournima?tab=overview&from=2025-04-01&to=2025-04-30"
+      },
+      {
+        "type": "click",
+        "selector": "div.logged-out.env-production.page-responsive.page-profile > div.application-main:nth-of-type(4) > main > div.container-xl.px-3.px-md-4.px-lg-5:nth-of-type(2) > div.Layout.Layout--flowRow-until-md.Layout--sidebarPosition-start.Layout--sidebarPosition-flowRow-start > div.Layout-main:nth-of-type(2) > turbo-frame > div.position-relative > div.mt-4.position-relative:nth-of-type(3) > div.activity-listing.contribution-activity:nth-of-type(2) > form.ajax-pagination-form.js-ajax-pagination.js-show-more-timeline-form.col-lg-10.col-12 > button.ajax-pagination-btn.btn.width-full.f6.mt-0.py-2.contribution-activity-show-more",
+        "tag": "BUTTON"
+      },
+      {
+        "type": "navigation",
+        "url": "https://github.com/QAPournima?tab=overview&from=2025-03-01&to=2025-03-31"
+      },
+      {
+        "type": "click",
+        "selector": "div.logged-out.env-production.page-responsive.page-profile > div.application-main:nth-of-type(4) > main > div.container-xl.px-3.px-md-4.px-lg-5:nth-of-type(2) > div.Layout.Layout--flowRow-until-md.Layout--sidebarPosition-start.Layout--sidebarPosition-flowRow-start > div.Layout-main:nth-of-type(2) > turbo-frame > div.position-relative > div.mt-4.position-relative:nth-of-type(3) > div.activity-listing.contribution-activity:nth-of-type(2) > form.ajax-pagination-form.js-ajax-pagination.js-show-more-timeline-form.col-lg-10.col-12 > button.ajax-pagination-btn.btn.width-full.f6.mt-0.py-2.contribution-activity-show-more",
+        "tag": "BUTTON"
+      },
+      {
+        "type": "navigation",
+        "url": "https://github.com/QAPournima?tab=overview&from=2025-02-01&to=2025-02-28"
+      },
+      {
+        "type": "click",
+        "selector": "div.logged-out.env-production.page-responsive.page-profile > div.application-main:nth-of-type(4) > main > div.container-xl.px-3.px-md-4.px-lg-5:nth-of-type(2) > div.Layout.Layout--flowRow-until-md.Layout--sidebarPosition-start.Layout--sidebarPosition-flowRow-start > div.Layout-main:nth-of-type(2) > turbo-frame > div.position-relative > div.mt-4.position-relative:nth-of-type(3) > div.activity-listing.contribution-activity:nth-of-type(2) > form.ajax-pagination-form.js-ajax-pagination.js-show-more-timeline-form.col-lg-10.col-12 > button.ajax-pagination-btn.btn.width-full.f6.mt-0.py-2.contribution-activity-show-more",
+        "tag": "BUTTON"
+      },
+      {
+        "type": "navigation",
+        "url": "https://github.com/QAPournima?tab=overview&from=2025-01-01&to=2025-01-31"
+      },
+      {
+        "type": "click",
+        "selector": "div.logged-out.env-production.page-responsive.page-profile > div.application-main:nth-of-type(4) > main > div.mt-4.position-sticky.top-0.d-none.d-md-block.color-bg-default.width-full.border-bottom.color-border-muted > div.container-xl.px-3.px-md-4.px-lg-5 > div.Layout.Layout--flowRow-until-md.Layout--sidebarPosition-start.Layout--sidebarPosition-flowRow-start > div.Layout-main:nth-of-type(2) > div.UnderlineNav.width-full.box-shadow-none.js-responsive-underlinenav.overflow-md-x-hidden > nav.UnderlineNav-body.width-full.p-responsive.js-sidenav-container-pjax > a.UnderlineNav-item.js-responsive-underlinenav-item.js-selected-navigation-item:nth-of-type(2)",
+        "tag": "A"
+      },
+      {
+        "type": "navigation",
+        "url": "https://github.com/QAPournima?tab=repositories"
+      },
+      {
+        "type": "click",
+        "selector": "div.logged-out.env-production.page-responsive.page-profile > div.application-main:nth-of-type(4) > main > div.container-xl.px-3.px-md-4.px-lg-5:nth-of-type(2) > div.Layout.Layout--flowRow-until-md.Layout--sidebarPosition-start.Layout--sidebarPosition-flowRow-start > div.Layout-main:nth-of-type(2) > turbo-frame > div.position-relative > div:nth-of-type(2) > ul > li.col-12.d-flex.flex-justify-between.width-full.py-4.border-bottom.color-border-muted.public.source:nth-of-type(2) > div.col-10.col-lg-9.d-inline-block > div.d-inline-block.mb-1 > h3.wb-break-all > a",
+        "tag": "A"
+      },
+      {
+        "type": "navigation",
+        "url": "https://github.com/QAPournima/GraphQL-Mock-Server"
+      },
+      {
+        "type": "navigation",
+        "url": "https://github.com/QAPournima/GraphQL-Mock-Server"
+      },
+      {
+        "type": "navigation",
+        "url": "https://github.com/QAPournima/GraphQL-Mock-Server"
+      },
+      {
+        "type": "navigation",
+        "url": "https://github.com/QAPournima/GraphQL-Mock-Server"
+      }
+    ],
+    "timestamp": "2025-06-06T22:37:23.125Z"
+  },
+  {
+    "name": "Test Case QA-115",
+    "steps": [
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      },
+      {
+        "type": "click",
+        "selector": "div.Fgvgjc:nth-of-type(2) > div.HTjtHe:nth-of-type(2) > div.jw8mI:nth-of-type(3) > span > div.KxvlWc > div.HOq4He.wX2YHc > div.dbsFrd > div.spoKVd:nth-of-type(3) > div.GzLjMd > button.tHlp8d:nth-of-type(2) > div.QS5gu.sy4vM",
+        "tag": "DIV"
+      },
+      {
+        "type": "click",
+        "selector": "#APjFqb",
+        "tag": "TEXTAREA"
+      },
+      {
+        "type": "click",
+        "selector": "#APjFqb",
+        "tag": "TEXTAREA"
+      },
+      {
+        "type": "keydown",
+        "selector": "#APjFqb",
+        "key": "Shift",
+        "tag": "TEXTAREA"
+      },
+      {
+        "type": "keydown",
+        "selector": "#APjFqb",
+        "key": "A",
+        "tag": "TEXTAREA"
+      },
+      {
+        "type": "input",
+        "selector": "#APjFqb",
+        "value": "A",
+        "tag": "TEXTAREA"
+      },
+      {
+        "type": "keydown",
+        "selector": "#APjFqb",
+        "key": "I",
+        "tag": "TEXTAREA"
+      },
+      {
+        "type": "input",
+        "selector": "#APjFqb",
+        "value": "AI",
+        "tag": "TEXTAREA"
+      },
+      {
+        "type": "keydown",
+        "selector": "#APjFqb",
+        "key": " ",
+        "tag": "TEXTAREA"
+      },
+      {
+        "type": "input",
+        "selector": "#APjFqb",
+        "value": "AI ",
+        "tag": "TEXTAREA"
+      },
+      {
+        "type": "keydown",
+        "selector": "#APjFqb",
+        "key": "w",
+        "tag": "TEXTAREA"
+      },
+      {
+        "type": "input",
+        "selector": "#APjFqb",
+        "value": "AI w",
+        "tag": "TEXTAREA"
+      },
+      {
+        "type": "keydown",
+        "selector": "#APjFqb",
+        "key": "o",
+        "tag": "TEXTAREA"
+      },
+      {
+        "type": "input",
+        "selector": "#APjFqb",
+        "value": "AI wo",
+        "tag": "TEXTAREA"
+      },
+      {
+        "type": "keydown",
+        "selector": "#APjFqb",
+        "key": "r",
+        "tag": "TEXTAREA"
+      },
+      {
+        "type": "input",
+        "selector": "#APjFqb",
+        "value": "AI wor",
+        "tag": "TEXTAREA"
+      },
+      {
+        "type": "keydown",
+        "selector": "#APjFqb",
+        "key": "k",
+        "tag": "TEXTAREA"
+      },
+      {
+        "type": "input",
+        "selector": "#APjFqb",
+        "value": "AI work",
+        "tag": "TEXTAREA"
+      },
+      {
+        "type": "keydown",
+        "selector": "#APjFqb",
+        "key": "f",
+        "tag": "TEXTAREA"
+      },
+      {
+        "type": "input",
+        "selector": "#APjFqb",
+        "value": "AI workf",
+        "tag": "TEXTAREA"
+      },
+      {
+        "type": "keydown",
+        "selector": "#APjFqb",
+        "key": "l",
+        "tag": "TEXTAREA"
+      },
+      {
+        "type": "input",
+        "selector": "#APjFqb",
+        "value": "AI workfl",
+        "tag": "TEXTAREA"
+      },
+      {
+        "type": "keydown",
+        "selector": "#APjFqb",
+        "key": "o",
+        "tag": "TEXTAREA"
+      },
+      {
+        "type": "input",
+        "selector": "#APjFqb",
+        "value": "AI workflo",
+        "tag": "TEXTAREA"
+      },
+      {
+        "type": "keydown",
+        "selector": "#APjFqb",
+        "key": "w",
+        "tag": "TEXTAREA"
+      },
+      {
+        "type": "input",
+        "selector": "#APjFqb",
+        "value": "AI workflow",
+        "tag": "TEXTAREA"
+      },
+      {
+        "type": "keydown",
+        "selector": "#APjFqb",
+        "key": "Enter",
+        "tag": "TEXTAREA"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/search?q=AI+workflow&sca_esv=66f24c93d8c702cd&source=hp&ei=Uf1DaOPoKIDUhbIPidSYsQE&iflsig=AOw8s4IAAAAAaEQLYRLi-6DN_K7RzcbhXG29uEcydz9G&ved=0ahUKEwij1d2A996NAxUAakEAHQkqJhYQ4dUDCA8&uact=5&oq=AI+workflow&gs_lp=Egdnd3Mtd2l6IgtBSSB3b3JrZmxvdzIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIyVpQ9kJYvFdwAngAkAEAmAF2oAHMBaoBAzkuMrgBA8gBAPgBAZgCDaAC-AWoAgrCAgoQLhgDGOoCGI8BwgIKEAAYAxjqAhiPAcICERAuGIAEGLEDGNEDGIMBGMcBwgIIEAAYgAQYsQPCAggQLhiABBixA8ICBRAuGIAEwgIOEC4YgAQYsQMY0QMYxwHCAg4QLhiABBixAxiDARiKBcICBBAAGAPCAgsQABiABBixAxiDAcICCxAuGIAEGMcBGK8BmAMJ8QXHQblUELDLCpIHBDEwLjOgB_NMsgcDOC4zuAfrBcIHBTAuOS40yAci&sclient=gws-wiz"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/search?q=AI+workflow&sca_esv=66f24c93d8c702cd&source=hp&ei=Uf1DaOPoKIDUhbIPidSYsQE&iflsig=AOw8s4IAAAAAaEQLYRLi-6DN_K7RzcbhXG29uEcydz9G&ved=0ahUKEwij1d2A996NAxUAakEAHQkqJhYQ4dUDCA8&uact=5&oq=AI+workflow&gs_lp=Egdnd3Mtd2l6IgtBSSB3b3JrZmxvdzIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIyVpQ9kJYvFdwAngAkAEAmAF2oAHMBaoBAzkuMrgBA8gBAPgBAZgCDaAC-AWoAgrCAgoQLhgDGOoCGI8BwgIKEAAYAxjqAhiPAcICERAuGIAEGLEDGNEDGIMBGMcBwgIIEAAYgAQYsQPCAggQLhiABBixA8ICBRAuGIAEwgIOEC4YgAQYsQMY0QMYxwHCAg4QLhiABBixAxiDARiKBcICBBAAGAPCAgsQABiABBixAxiDAcICCxAuGIAEGMcBGK8BmAMJ8QXHQblUELDLCpIHBDEwLjOgB_NMsgcDOC4zuAfrBcIHBTAuOS40yAci&sclient=gws-wiz"
+      },
+      {
+        "type": "navigation",
+        "url": "about:blank"
+      },
+      {
+        "type": "navigation",
+        "url": "about:blank"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAI%2Bworkflow%26sca_esv%3D66f24c93d8c702cd%26source%3Dhp%26ei%3DUf1DaOPoKIDUhbIPidSYsQE%26iflsig%3DAOw8s4IAAAAAaEQLYRLi-6DN_K7RzcbhXG29uEcydz9G%26ved%3D0ahUKEwij1d2A996NAxUAakEAHQkqJhYQ4dUDCA8%26uact%3D5%26oq%3DAI%2Bworkflow%26gs_lp%3DEgdnd3Mtd2l6IgtBSSB3b3JrZmxvdzIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIyVpQ9kJYvFdwAngAkAEAmAF2oAHMBaoBAzkuMrgBA8gBAPgBAZgCDaAC-AWoAgrCAgoQLhgDGOoCGI8BwgIKEAAYAxjqAhiPAcICERAuGIAEGLEDGNEDGIMBGMcBwgIIEAAYgAQYsQPCAggQLhiABBixA8ICBRAuGIAEwgIOEC4YgAQYsQMY0QMYxwHCAg4QLhiABBixAxiDARiKBcICBBAAGAPCAgsQABiABBixAxiDAcICCxAuGIAEGMcBGK8BmAMJ8QXHQblUELDLCpIHBDEwLjOgB_NMsgcDOC4zuAfrBcIHBTAuOS40yAci%26sclient%3Dgws-wiz%26sei%3DYf1DaOaLH9KEhbIPmoSgiQg&q=EhAqBlkGBDx0AExXWKqY6RqfGOH6j8IGIjDjzwIlPSd-TSGaH5P-wdhnSCHKeP0nY3daa-OpNcW1mt6-oo5TkwgJPX8bs-hwvl8yAVJaAUM"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DAI%2Bworkflow%26sca_esv%3D66f24c93d8c702cd%26source%3Dhp%26ei%3DUf1DaOPoKIDUhbIPidSYsQE%26iflsig%3DAOw8s4IAAAAAaEQLYRLi-6DN_K7RzcbhXG29uEcydz9G%26ved%3D0ahUKEwij1d2A996NAxUAakEAHQkqJhYQ4dUDCA8%26uact%3D5%26oq%3DAI%2Bworkflow%26gs_lp%3DEgdnd3Mtd2l6IgtBSSB3b3JrZmxvdzIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIyVpQ9kJYvFdwAngAkAEAmAF2oAHMBaoBAzkuMrgBA8gBAPgBAZgCDaAC-AWoAgrCAgoQLhgDGOoCGI8BwgIKEAAYAxjqAhiPAcICERAuGIAEGLEDGNEDGIMBGMcBwgIIEAAYgAQYsQPCAggQLhiABBixA8ICBRAuGIAEwgIOEC4YgAQYsQMY0QMYxwHCAg4QLhiABBixAxiDARiKBcICBBAAGAPCAgsQABiABBixAxiDAcICCxAuGIAEGMcBGK8BmAMJ8QXHQblUELDLCpIHBDEwLjOgB_NMsgcDOC4zuAfrBcIHBTAuOS40yAci%26sclient%3Dgws-wiz%26sei%3DYf1DaOaLH9KEhbIPmoSgiQg&q=EhAqBlkGBDx0AExXWKqY6RqfGOH6j8IGIjDjzwIlPSd-TSGaH5P-wdhnSCHKeP0nY3daa-OpNcW1mt6-oo5TkwgJPX8bs-hwvl8yAVJaAUM"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LdLLIMbAAAAAIl-KLj9p1ePhM-4LCCDbjtJLqRO&co=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbTo0NDM.&hl=en&v=GUGrl5YkSwqiWrzO3ShIKDlu&size=normal&s=keAHzUVoQExYlOidYgVfEc4a3vMLK-UYCyR_vbcohw6F_7D330ookrltB-ZKGfp-vtnmlFmaU94rzjMpQcitGct1v11iUHPI7NZ24pG-tZSPCrTVUEBCXcLKeZq3S7qvAsDpEzYjrhd2SUCfOqRqm1Nikl43xrREU-UmYqGnYodHqukDABzkp_Jj08qEBs9jm3JPVqwOwsDXQu2q8T3qnihAvi3xMroe_1Yepzx5R-iiQYExTxZVJxRhY3ksu6GLb0TkNZ4OdW6lDdCOgGNAgN_LAvC2wWg&cb=zidopy8qyt5r"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LdLLIMbAAAAAIl-KLj9p1ePhM-4LCCDbjtJLqRO&co=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbTo0NDM.&hl=en&v=GUGrl5YkSwqiWrzO3ShIKDlu&size=normal&s=keAHzUVoQExYlOidYgVfEc4a3vMLK-UYCyR_vbcohw6F_7D330ookrltB-ZKGfp-vtnmlFmaU94rzjMpQcitGct1v11iUHPI7NZ24pG-tZSPCrTVUEBCXcLKeZq3S7qvAsDpEzYjrhd2SUCfOqRqm1Nikl43xrREU-UmYqGnYodHqukDABzkp_Jj08qEBs9jm3JPVqwOwsDXQu2q8T3qnihAvi3xMroe_1Yepzx5R-iiQYExTxZVJxRhY3ksu6GLb0TkNZ4OdW6lDdCOgGNAgN_LAvC2wWg&cb=zidopy8qyt5r"
+      },
+      {
+        "type": "navigation",
+        "url": "about:blank"
+      },
+      {
+        "type": "navigation",
+        "url": "about:blank"
+      },
+      {
+        "type": "navigation",
+        "url": "about:blank"
+      },
+      {
+        "type": "navigation",
+        "url": "about:blank"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/recaptcha/api2/bframe?hl=en&v=GUGrl5YkSwqiWrzO3ShIKDlu&k=6LdLLIMbAAAAAIl-KLj9p1ePhM-4LCCDbjtJLqRO"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/recaptcha/api2/bframe?hl=en&v=GUGrl5YkSwqiWrzO3ShIKDlu&k=6LdLLIMbAAAAAIl-KLj9p1ePhM-4LCCDbjtJLqRO"
+      },
+      {
+        "type": "click",
+        "selector": "div > div > div.rc-imageselect-payload:nth-of-type(2) > div.rc-imageselect-instructions > div.rc-imageselect-desc-wrapper > div.rc-imageselect-candidates > div.rc-canonical-car",
+        "tag": "DIV"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/search?q=AI+workflow&sca_esv=66f24c93d8c702cd&source=hp&ei=Uf1DaOPoKIDUhbIPidSYsQE&iflsig=AOw8s4IAAAAAaEQLYRLi-6DN_K7RzcbhXG29uEcydz9G&ved=0ahUKEwij1d2A996NAxUAakEAHQkqJhYQ4dUDCA8&uact=5&oq=AI+workflow&gs_lp=Egdnd3Mtd2l6IgtBSSB3b3JrZmxvdzIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIyVpQ9kJYvFdwAngAkAEAmAF2oAHMBaoBAzkuMrgBA8gBAPgBAZgCDaAC-AWoAgrCAgoQLhgDGOoCGI8BwgIKEAAYAxjqAhiPAcICERAuGIAEGLEDGNEDGIMBGMcBwgIIEAAYgAQYsQPCAggQLhiABBixA8ICBRAuGIAEwgIOEC4YgAQYsQMY0QMYxwHCAg4QLhiABBixAxiDARiKBcICBBAAGAPCAgsQABiABBixAxiDAcICCxAuGIAEGMcBGK8BmAMJ8QXHQblUELDLCpIHBDEwLjOgB_NMsgcDOC4zuAfrBcIHBTAuOS40yAci&sclient=gws-wiz&sei=Yf1DaOaLH9KEhbIPmoSgiQg"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/search?q=AI+workflow&sca_esv=66f24c93d8c702cd&source=hp&ei=Uf1DaOPoKIDUhbIPidSYsQE&iflsig=AOw8s4IAAAAAaEQLYRLi-6DN_K7RzcbhXG29uEcydz9G&ved=0ahUKEwij1d2A996NAxUAakEAHQkqJhYQ4dUDCA8&uact=5&oq=AI+workflow&gs_lp=Egdnd3Mtd2l6IgtBSSB3b3JrZmxvdzIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIyVpQ9kJYvFdwAngAkAEAmAF2oAHMBaoBAzkuMrgBA8gBAPgBAZgCDaAC-AWoAgrCAgoQLhgDGOoCGI8BwgIKEAAYAxjqAhiPAcICERAuGIAEGLEDGNEDGIMBGMcBwgIIEAAYgAQYsQPCAggQLhiABBixA8ICBRAuGIAEwgIOEC4YgAQYsQMY0QMYxwHCAg4QLhiABBixAxiDARiKBcICBBAAGAPCAgsQABiABBixAxiDAcICCxAuGIAEGMcBGK8BmAMJ8QXHQblUELDLCpIHBDEwLjOgB_NMsgcDOC4zuAfrBcIHBTAuOS40yAci&sclient=gws-wiz&sei=Yf1DaOaLH9KEhbIPmoSgiQg"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/search?q=AI+workflow&sca_esv=66f24c93d8c702cd&source=hp&ei=Uf1DaOPoKIDUhbIPidSYsQE&iflsig=AOw8s4IAAAAAaEQLYRLi-6DN_K7RzcbhXG29uEcydz9G&ved=0ahUKEwij1d2A996NAxUAakEAHQkqJhYQ4dUDCA8&uact=5&oq=AI+workflow&gs_lp=Egdnd3Mtd2l6IgtBSSB3b3JrZmxvdzIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIyVpQ9kJYvFdwAngAkAEAmAF2oAHMBaoBAzkuMrgBA8gBAPgBAZgCDaAC-AWoAgrCAgoQLhgDGOoCGI8BwgIKEAAYAxjqAhiPAcICERAuGIAEGLEDGNEDGIMBGMcBwgIIEAAYgAQYsQPCAggQLhiABBixA8ICBRAuGIAEwgIOEC4YgAQYsQMY0QMYxwHCAg4QLhiABBixAxiDARiKBcICBBAAGAPCAgsQABiABBixAxiDAcICCxAuGIAEGMcBGK8BmAMJ8QXHQblUELDLCpIHBDEwLjOgB_NMsgcDOC4zuAfrBcIHBTAuOS40yAci&sclient=gws-wiz&sei=Yf1DaOaLH9KEhbIPmoSgiQg"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/search?q=AI+workflow&sca_esv=66f24c93d8c702cd&source=hp&ei=Uf1DaOPoKIDUhbIPidSYsQE&iflsig=AOw8s4IAAAAAaEQLYRLi-6DN_K7RzcbhXG29uEcydz9G&ved=0ahUKEwij1d2A996NAxUAakEAHQkqJhYQ4dUDCA8&uact=5&oq=AI+workflow&gs_lp=Egdnd3Mtd2l6IgtBSSB3b3JrZmxvdzIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIyVpQ9kJYvFdwAngAkAEAmAF2oAHMBaoBAzkuMrgBA8gBAPgBAZgCDaAC-AWoAgrCAgoQLhgDGOoCGI8BwgIKEAAYAxjqAhiPAcICERAuGIAEGLEDGNEDGIMBGMcBwgIIEAAYgAQYsQPCAggQLhiABBixA8ICBRAuGIAEwgIOEC4YgAQYsQMY0QMYxwHCAg4QLhiABBixAxiDARiKBcICBBAAGAPCAgsQABiABBixAxiDAcICCxAuGIAEGMcBGK8BmAMJ8QXHQblUELDLCpIHBDEwLjOgB_NMsgcDOC4zuAfrBcIHBTAuOS40yAci&sclient=gws-wiz&sei=Yf1DaOaLH9KEhbIPmoSgiQg"
+      },
+      {
+        "type": "navigation",
+        "url": "about:blank"
+      },
+      {
+        "type": "navigation",
+        "url": "about:blank"
+      },
+      {
+        "type": "navigation",
+        "url": "about:blank"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.youtube.com/embed/?enablejsapi=1&rel=0&autoplay=0&playsinline=1&expflag=embeds_enable_muted_autoplay%3Atrue&fs=1&hl=en-GB"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.youtube.com/embed/?enablejsapi=1&rel=0&autoplay=0&playsinline=1&expflag=embeds_enable_muted_autoplay%3Atrue&fs=1&hl=en-GB"
+      },
+      {
+        "type": "navigation",
+        "url": "about:blank"
+      },
+      {
+        "type": "navigation",
+        "url": "about:blank"
+      },
+      {
+        "type": "click",
+        "selector": "div.main:nth-of-type(3) > div.e9EfHf > div.YNk70c.NbTBrb.GyAeWb:nth-of-type(12) > div.s6JM6d.ufC5Cb:nth-of-type(2) > div.eqAnXb > div:nth-of-type(2) > div > div.dURPMd > div.MjjYud > div > div > div > div.GUyUUb:nth-of-type(5) > div.uEierd > div > div > div.vdQmEd.fP1Qef.xpd.EtOod.pkphOe > div.v5yQqb > a.sVXRqc > div.CCgQ5.vCa9Yd.QfkTvb.N8QANc.Va3FIb.EE3Upf > span",
+        "tag": "SPAN"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.sage.com/en-gb/sage-copilot/?utm_source=GOOGLE&utm_medium=paidsearch&utm_campaign=UK%7CGoogle%7CSmall%7CGeneric_Accounting/SageCopilot(tROAS-B)NA_SMAACNG_&utm_adgroup=AI+Accounting+Software&ppc_keyword=&utm_term=ai+tools+for+accounting&gad_source=1&gad_campaignid=22329658295&gbraid=0AAAAADmL1QK5qe91W_ckRPucndVMUgXih&gclid=EAIaIQobChMIx53tjffejQMVapRQBh0NFg2mEAAYAyAAEgJPEvD_BwE&gclsrc=aw.ds"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.sage.com/en-gb/sage-copilot/?utm_source=GOOGLE&utm_medium=paidsearch&utm_campaign=UK%7CGoogle%7CSmall%7CGeneric_Accounting/SageCopilot(tROAS-B)NA_SMAACNG_&utm_adgroup=AI+Accounting+Software&ppc_keyword=&utm_term=ai+tools+for+accounting&gad_source=1&gad_campaignid=22329658295&gbraid=0AAAAADmL1QK5qe91W_ckRPucndVMUgXih&gclid=EAIaIQobChMIx53tjffejQMVapRQBh0NFg2mEAAYAyAAEgJPEvD_BwE&gclsrc=aw.ds"
+      }
+    ],
+    "timestamp": "2025-06-07T08:51:37.251Z"
+  },
+  {
+    "name": "Manual Test 6",
+    "steps": [
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      }
+    ],
+    "timestamp": "2025-06-07T10:10:31.680Z"
+  },
+  {
+    "name": "Manual Test 7",
+    "steps": [],
+    "timestamp": "2025-06-07T10:11:25.184Z"
+  },
+  {
+    "name": "Test cases for user story: SCRUM-1",
+    "steps": [
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      },
+      {
+        "type": "click",
+        "selector": "div.Fgvgjc:nth-of-type(2) > div.HTjtHe:nth-of-type(2) > div.jw8mI:nth-of-type(3) > span > div.KxvlWc > div.HOq4He.wX2YHc > div.dbsFrd > div.GZ7xNe:nth-of-type(2) > div.AG96lb > div.yS1nld:nth-of-type(3)",
+        "tag": "DIV"
+      },
+      {
+        "type": "click",
+        "selector": "div.Fgvgjc:nth-of-type(2) > div.HTjtHe:nth-of-type(2) > div.jw8mI:nth-of-type(3) > span > div.KxvlWc > div.HOq4He.wX2YHc > div.dbsFrd > div.spoKVd:nth-of-type(3) > div.GzLjMd > button.tHlp8d:nth-of-type(2) > div.QS5gu.sy4vM",
+        "tag": "DIV"
+      },
+      {
+        "type": "click",
+        "selector": "#APjFqb",
+        "tag": "TEXTAREA"
+      },
+      {
+        "type": "click",
+        "selector": "div.L3eUgb > div.o3j99.ikrT4e.om7nvf:nth-of-type(3)",
+        "tag": "DIV"
+      },
+      {
+        "type": "navigation",
+        "url": "about:blank"
+      },
+      {
+        "type": "navigation",
+        "url": "about:blank"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/url?url=/doodles&ct=ifl&cad=2:doodley&ei=xxdEaPW8DomlhbIPuePGyAc&ved=0ahUKEwi1vM-ekN-NAxWJUkEAHbmxEXkQnRsIEw&ictx=2&rct=j"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/url?url=/doodles&ct=ifl&cad=2:doodley&ei=xxdEaPW8DomlhbIPuePGyAc&ved=0ahUKEwi1vM-ekN-NAxWJUkEAHbmxEXkQnRsIEw&ictx=2&rct=j"
+      },
+      {
+        "type": "navigation",
+        "url": "about:blank"
+      },
+      {
+        "type": "navigation",
+        "url": "about:blank"
+      },
+      {
+        "type": "navigation",
+        "url": "https://doodles.google/"
+      },
+      {
+        "type": "navigation",
+        "url": "https://doodles.google/"
+      },
+      {
+        "type": "navigation",
+        "url": "https://doodles.google/static/06f691de476eebf89687d94773da4f718358b15519235781275a4af9870ecc69.logo-doodle-color.svg"
+      },
+      {
+        "type": "navigation",
+        "url": "https://doodles.google/static/06f691de476eebf89687d94773da4f718358b15519235781275a4af9870ecc69.logo-doodle-color.svg"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6Ld2VXUnAAAAAOmlNm2Lz5S1UddvU-mZWr4raoPI&co=aHR0cHM6Ly9kb29kbGVzLmdvb2dsZTo0NDM.&hl=en&v=GUGrl5YkSwqiWrzO3ShIKDlu&size=invisible&cb=94ah3jgwyp2h"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6Ld2VXUnAAAAAOmlNm2Lz5S1UddvU-mZWr4raoPI&co=aHR0cHM6Ly9kb29kbGVzLmdvb2dsZTo0NDM.&hl=en&v=GUGrl5YkSwqiWrzO3ShIKDlu&size=invisible&cb=94ah3jgwyp2h"
+      },
+      {
+        "type": "navigation",
+        "url": "about:blank"
+      },
+      {
+        "type": "navigation",
+        "url": "about:blank"
+      },
+      {
+        "type": "navigation",
+        "url": "about:blank"
+      },
+      {
+        "type": "navigation",
+        "url": "about:blank"
+      },
+      {
+        "type": "click",
+        "selector": "div:nth-of-type(2) > div.main-page > div.hero-tag-carousel.doodle-module.floating-buttons > div.background-pattern-dots > div.glue-carousel.glue-carousel--peek-out.glue-carousel--has-navigation > div.glue-carousel__viewport > div.glue-carousel__list.hero-tag-carousel__list > div.glue-carousel__item.hero-tag-carousel__item > div.hero-tag-carousel__collage.active > a.hero-tag-carousel__collage-card:nth-of-type(2) > img.hero-tag-carousel__collage-card-img",
+        "tag": "IMG"
+      },
+      {
+        "type": "navigation",
+        "url": "https://doodles.google/doodle/mens-college-basketball-championship-2025/"
+      },
+      {
+        "type": "navigation",
+        "url": "https://doodles.google/doodle/mens-college-basketball-championship-2025/"
+      },
+      {
+        "type": "navigation",
+        "url": "https://doodles.google/static/06f691de476eebf89687d94773da4f718358b15519235781275a4af9870ecc69.logo-doodle-color.svg"
+      },
+      {
+        "type": "navigation",
+        "url": "https://doodles.google/static/06f691de476eebf89687d94773da4f718358b15519235781275a4af9870ecc69.logo-doodle-color.svg"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6Ld2VXUnAAAAAOmlNm2Lz5S1UddvU-mZWr4raoPI&co=aHR0cHM6Ly9kb29kbGVzLmdvb2dsZTo0NDM.&hl=en&v=GUGrl5YkSwqiWrzO3ShIKDlu&size=invisible&cb=z256d1s6r1z7"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6Ld2VXUnAAAAAOmlNm2Lz5S1UddvU-mZWr4raoPI&co=aHR0cHM6Ly9kb29kbGVzLmdvb2dsZTo0NDM.&hl=en&v=GUGrl5YkSwqiWrzO3ShIKDlu&size=invisible&cb=z256d1s6r1z7"
+      },
+      {
+        "type": "navigation",
+        "url": "about:blank"
+      },
+      {
+        "type": "navigation",
+        "url": "about:blank"
+      },
+      {
+        "type": "navigation",
+        "url": "about:blank"
+      },
+      {
+        "type": "navigation",
+        "url": "about:blank"
+      },
+      {
+        "type": "click",
+        "selector": "div:nth-of-type(2) > div.main-page > div.hero-doodle.doodle-module.theme-yellow > div.display-flex.border-bottom > div.glue-page.no-margin:nth-of-type(2) > section.img-container > div.media-container > img.doodle-image",
+        "tag": "IMG"
+      }
+    ],
+    "timestamp": "2025-06-07T10:43:52.520Z"
+  },
+  {
+    "name": "Hello test",
+    "steps": [
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      }
+    ],
+    "timestamp": "2025-06-07T10:45:15.077Z"
+  },
+  {
+    "name": "test case 1",
+    "steps": [
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      },
+      {
+        "type": "navigation",
+        "selector": "",
+        "value": "",
+        "url": "test"
+      }
+    ],
+    "timestamp": "2025-06-07T10:48:55.346Z"
+  },
+  {
+    "name": "Test cases for user story: SCRUM-1",
+    "steps": [
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      },
+      {
+        "type": "click",
+        "selector": "div.Fgvgjc:nth-of-type(2) > div.HTjtHe:nth-of-type(2) > div.jw8mI:nth-of-type(3) > span > div.KxvlWc > div.HOq4He.wX2YHc > div.dbsFrd > div.spoKVd:nth-of-type(3) > div.GzLjMd > button.tHlp8d:nth-of-type(2) > div.QS5gu.sy4vM",
+        "tag": "DIV"
+      },
+      {
+        "type": "click",
+        "selector": "div.L3eUgb > div.o3j99.ikrT4e.om7nvf:nth-of-type(3) > form > div > div.A8SBwf > div.FPdoLc.lJ9FBc:nth-of-type(3) > center",
+        "tag": "CENTER"
+      },
+      {
+        "type": "navigation",
+        "url": "about:blank"
+      },
+      {
+        "type": "navigation",
+        "url": "about:blank"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/url?url=https://trends.google.com/hottrends&sa=t&usg=AOvVaw0hXgzDMTx66unZaN8ANJHA&ct=ifl&cad=2:trendy&ei=Lj9EaLn6Co2thbIP_Lmx2Qg&ved=0ahUKEwi5ybnotd-NAxWNVkEAHfxcLIsQnRsIEw&ictx=2&rct=j"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/url?url=https://trends.google.com/hottrends&sa=t&usg=AOvVaw0hXgzDMTx66unZaN8ANJHA&ct=ifl&cad=2:trendy&ei=Lj9EaLn6Co2thbIP_Lmx2Qg&ved=0ahUKEwi5ybnotd-NAxWNVkEAHfxcLIsQnRsIEw&ictx=2&rct=j"
+      },
+      {
+        "type": "navigation",
+        "url": "about:blank"
+      },
+      {
+        "type": "navigation",
+        "url": "about:blank"
+      },
+      {
+        "type": "navigation",
+        "url": "https://trends.google.com/trending"
+      },
+      {
+        "type": "navigation",
+        "url": "https://trends.google.com/trending"
+      },
+      {
+        "type": "navigation",
+        "url": "https://trends.google.com/trending"
+      },
+      {
+        "type": "navigation",
+        "url": "about:blank"
+      },
+      {
+        "type": "navigation",
+        "url": "https://feedback-pa.clients6.google.com/static/proxy.html?usegapi=1&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.gapi.en.citSWp3NP7U.O%2Fd%3D1%2Frs%3DAHpOoo9xL6HUJcSIDSbTUlNBOsamhv5RMA%2Fm%3D__features__#parent=https%3A%2F%2Ftrends.google.com&rpctoken=1823966352"
+      },
+      {
+        "type": "navigation",
+        "url": "https://feedback-pa.clients6.google.com/static/proxy.html?usegapi=1&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.gapi.en.citSWp3NP7U.O%2Fd%3D1%2Frs%3DAHpOoo9xL6HUJcSIDSbTUlNBOsamhv5RMA%2Fm%3D__features__#parent=https%3A%2F%2Ftrends.google.com&rpctoken=1823966352"
+      },
+      {
+        "type": "navigation",
+        "url": "https://trends.google.com/trending?geo=GB"
+      },
+      {
+        "type": "click",
+        "selector": "c-wiz.zQTmif.SSPGKf > div.T4LgNb > div.EwGhMd:nth-of-type(5) > div > c-wiz > div.DEQ5Hc > div.HWgqId:nth-of-type(2) > div.GLyLe > div.enOdEe-wZVHld-jyrRxf.enOdEe-wZVHld-jyrRxf-OWXEXe-KbJTVc-tJHJj.H1uGkf.xZkUPd > div.enOdEe-wZVHld-zg7Cn-haAclf > table.enOdEe-wZVHld-zg7Cn > tbody:nth-of-type(2) > tr.enOdEe-wZVHld-xMbwt.UlR2Yc:nth-of-type(2) > td.enOdEe-wZVHld-aOtOmf.jvkLtd:nth-of-type(2) > div.mZ3RIc",
+        "tag": "DIV"
+      },
+      {
+        "type": "click",
+        "selector": "c-wiz.zQTmif.SSPGKf > div.T4LgNb > div.EwGhMd:nth-of-type(5) > div > c-wiz > div.DEQ5Hc > div.HWgqId:nth-of-type(2) > div.EMz5P:nth-of-type(2) > div.k44Spe:nth-of-type(2) > div.cfjPMb:nth-of-type(3) > div.oeSrff > div:nth-of-type(2) > div.VfPpkd-dgl2Hf-ppHlrf-sM5MNb > button.AeBiU-LgbsSe.AeBiU-LgbsSe-OWXEXe-Bz112c-M1Soyc.AeBiU-LgbsSe-OWXEXe-dgl2Hf.AeBiU-kSE8rc-FoKg4d-sLO9V-YoZ4jf > span.AeBiU-vQzf8d:nth-of-type(5)",
+        "tag": "SPAN"
+      }
+    ],
+    "timestamp": "2025-06-07T13:31:44.974Z"
+  },
+  {
+    "name": "Manual Test 12",
+    "steps": [
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      },
+      {
+        "type": "click",
+        "selector": "div.Fgvgjc:nth-of-type(2) > div.HTjtHe:nth-of-type(2) > div.jw8mI:nth-of-type(3) > span > div.KxvlWc > div.HOq4He.wX2YHc > div.dbsFrd > div.spoKVd:nth-of-type(3) > div.GzLjMd > button.tHlp8d:nth-of-type(2) > div.QS5gu.sy4vM",
+        "tag": "DIV"
+      },
+      {
+        "type": "click",
+        "selector": "div.L3eUgb > div.o3j99.n1xJcf.Ne6nSd > a.MV3Tnb",
+        "tag": "A"
+      },
+      {
+        "type": "navigation",
+        "url": "https://about.google/?fg=1&utm_source=google-GB&utm_medium=referral&utm_campaign=hp-header"
+      },
+      {
+        "type": "navigation",
+        "url": "https://about.google/?fg=1&utm_source=google-GB&utm_medium=referral&utm_campaign=hp-header"
+      },
+      {
+        "type": "navigation",
+        "url": "about:blank"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.youtube.com/embed/LxvErFkBXPk?utm_source=about.google?rel=0&enablejsapi=1&origin=https%3A%2F%2Fabout.google&widgetid=1"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.youtube.com/embed/LxvErFkBXPk?utm_source=about.google?rel=0&enablejsapi=1&origin=https%3A%2F%2Fabout.google&widgetid=1"
+      },
+      {
+        "type": "navigation",
+        "url": "https://feedback-pa.clients6.google.com/static/proxy.html?usegapi=1&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.nJpyt-fjzo8.O%2Fd%3D1%2Frs%3DAHpOoo9fTqXSCmwMDsu9FH68l5KSqr6MBg%2Fm%3D__features__#parent=https%3A%2F%2Fabout.google&rpctoken=711794371"
+      },
+      {
+        "type": "navigation",
+        "url": "https://feedback-pa.clients6.google.com/static/proxy.html?usegapi=1&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.nJpyt-fjzo8.O%2Fd%3D1%2Frs%3DAHpOoo9fTqXSCmwMDsu9FH68l5KSqr6MBg%2Fm%3D__features__#parent=https%3A%2F%2Fabout.google&rpctoken=711794371"
+      },
+      {
+        "type": "navigation",
+        "url": "about:blank"
+      },
+      {
+        "type": "navigation",
+        "url": "about:blank"
+      },
+      {
+        "type": "navigation",
+        "url": "about:blank"
+      },
+      {
+        "type": "navigation",
+        "url": "about:blank"
+      }
+    ],
+    "timestamp": "2025-06-07T13:42:39.027Z"
+  },
+  {
+    "name": "Manual Test 13",
+    "steps": [
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      },
+      {
+        "type": "navigation",
+        "url": "https://www.google.com/"
+      },
+      {
+        "type": "click",
+        "selector": "div.Fgvgjc:nth-of-type(2) > div.HTjtHe:nth-of-type(2) > div.jw8mI:nth-of-type(3) > span > div.KxvlWc > div.HOq4He.wX2YHc > div.dbsFrd > div.spoKVd:nth-of-type(3) > div.GzLjMd > button.tHlp8d > div.QS5gu.sy4vM",
+        "tag": "DIV"
+      },
+      {
+        "type": "click",
+        "selector": "div.L3eUgb > div.o3j99.n1xJcf.Ne6nSd > a.MV3Tnb:nth-of-type(2)",
+        "tag": "A"
+      },
+      {
+        "type": "navigation",
+        "url": "https://store.google.com/gb/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-GB"
+      },
+      {
+        "type": "navigation",
+        "url": "https://store.google.com/gb/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-GB"
+      },
+      {
+        "type": "navigation",
+        "url": "https://store.google.com/gb/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-GB"
+      },
+      {
+        "type": "navigation",
+        "url": "https://store.google.com/gb/product/pixel_watch_3?hl=en-GB"
+      },
+      {
+        "type": "click",
+        "selector": "c-wiz.SSPGKf.oCHqfe:nth-of-type(2) > div.T4LgNb > div.kFwPee > div.ucj-3.CBCsnf:nth-of-type(2) > main.xMVRKd > div.lLfkxb > div > c-wiz > div.page-module:nth-of-type(11) > c-wiz > div > div.ucj-12.CBCsnf > section.sHXio.NdJmme > div.V2dVHb > div.Dng28e > div.S6B33.Isre8c.yoZH2c > div.DhljYd > div.TEwlte > div.zQAcjf > div.ovHDbd.yRqLLd > div.S6B33.kN7HAe.yoZH2c > div.DhljYd > div.E1Czt > div > div.S6B33.MPjQcb.fK1Pib.g7hYMe.kN7HAe.yoZH2c > div.DhljYd > div > div.D4ljxd > div.D4ljxd.qny8z.TLUDxb:nth-of-type(2) > div > div.ryTcJb > a.IvQv9b.rqxpAb.kqgG1c.pgPmcb.CyPpIc.p1ywYe.hx86dc",
+        "tag": "A"
+      }
+    ],
+    "timestamp": "2025-06-07T13:49:27.499Z"
+  }
+]

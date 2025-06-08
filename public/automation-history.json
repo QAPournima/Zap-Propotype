@@ -1,0 +1,1018 @@
+[
+  {
+    "jiraId": "QA-119",
+    "testCaseName": "Test Case QA-119",
+    "timestamp": "2025-06-05T17:17:25.885Z",
+    "results": [
+      {
+        "action": "goto",
+        "url": "https://your-app.com",
+        "name": "Open App",
+        "status": "passed",
+        "screenshot": "/api/screenshots/step-1.png"
+      },
+      {
+        "action": "fill",
+        "selector": "#username",
+        "value": "demo",
+        "name": "Enter Username",
+        "status": "failed",
+        "error": "page.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#username')\u001b[22m\n",
+        "screenshot": "/api/screenshots/step-2-error.png"
+      }
+    ]
+  },
+  {
+    "jiraId": "QA-119",
+    "testCaseName": "Test Case QA-119",
+    "timestamp": "2025-06-05T17:19:54.386Z",
+    "results": [
+      {
+        "action": "goto",
+        "url": "https://your-app.com",
+        "name": "Open App",
+        "status": "passed",
+        "screenshot": "/api/screenshots/step-1.png"
+      },
+      {
+        "action": "fill",
+        "selector": "#username",
+        "value": "demo",
+        "name": "Enter Username",
+        "status": "failed",
+        "error": "page.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#username')\u001b[22m\n",
+        "screenshot": "/api/screenshots/step-2-error.png"
+      }
+    ]
+  },
+  {
+    "jiraId": "QA-119",
+    "testCaseName": "Test Case QA-119",
+    "timestamp": "2025-06-05T17:21:13.000Z",
+    "results": [
+      {
+        "action": "goto",
+        "url": "https://your-app.com",
+        "name": "Open App",
+        "status": "passed",
+        "screenshot": "/api/screenshots/step-1.png"
+      },
+      {
+        "action": "fill",
+        "selector": "#username",
+        "value": "demo",
+        "name": "Enter Username",
+        "status": "failed",
+        "error": "page.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#username')\u001b[22m\n",
+        "screenshot": "/api/screenshots/step-2-error.png"
+      }
+    ]
+  },
+  {
+    "jiraId": "QA-119",
+    "testCaseName": "Test Case QA-119",
+    "timestamp": "2025-06-05T17:21:13.642Z",
+    "results": [
+      {
+        "action": "goto",
+        "url": "https://your-app.com",
+        "name": "Open App",
+        "status": "passed",
+        "screenshot": "/api/screenshots/step-1.png"
+      },
+      {
+        "action": "fill",
+        "selector": "#username",
+        "value": "demo",
+        "name": "Enter Username",
+        "status": "failed",
+        "error": "page.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#username')\u001b[22m\n",
+        "screenshot": "/api/screenshots/step-2-error.png"
+      }
+    ]
+  },
+  {
+    "jiraId": "QA-119",
+    "testCaseName": "Test Case QA-119",
+    "timestamp": "2025-06-05T17:22:19.750Z",
+    "results": [
+      {
+        "action": "goto",
+        "url": "https://your-app.com",
+        "name": "Open App",
+        "status": "passed",
+        "screenshot": "/api/screenshots/step-1.png"
+      },
+      {
+        "action": "fill",
+        "selector": "#username",
+        "value": "demo",
+        "name": "Enter Username",
+        "status": "failed",
+        "error": "page.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#username')\u001b[22m\n",
+        "screenshot": "/api/screenshots/step-2-error.png"
+      }
+    ]
+  },
+  {
+    "jiraId": "QA-119",
+    "testCaseName": "Test Case QA-119",
+    "timestamp": "2025-06-05T17:22:19.854Z",
+    "results": [
+      {
+        "action": "goto",
+        "url": "https://your-app.com",
+        "name": "Open App",
+        "status": "passed",
+        "screenshot": "/api/screenshots/step-1.png"
+      },
+      {
+        "action": "fill",
+        "selector": "#username",
+        "value": "demo",
+        "name": "Enter Username",
+        "status": "failed",
+        "error": "page.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#username')\u001b[22m\n",
+        "screenshot": "/api/screenshots/step-2-error.png"
+      }
+    ]
+  },
+  {
+    "jiraId": "QA-119",
+    "testCaseName": "Test Case QA-119",
+    "timestamp": "2025-06-05T17:30:25.212Z",
+    "results": [
+      {
+        "action": "goto",
+        "url": "https://your-app.com",
+        "name": "Open App",
+        "status": "passed",
+        "screenshot": "/api/screenshots/step-1.png"
+      },
+      {
+        "action": "fill",
+        "selector": "#username",
+        "value": "demo",
+        "name": "Enter Username",
+        "status": "failed",
+        "error": "page.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#username')\u001b[22m\n",
+        "screenshot": "/api/screenshots/step-2-error.png"
+      }
+    ]
+  },
+  {
+    "jiraId": "QA-119",
+    "testCaseName": "Test Case QA-119",
+    "timestamp": "2025-06-05T17:30:25.461Z",
+    "results": [
+      {
+        "action": "goto",
+        "url": "https://your-app.com",
+        "name": "Open App",
+        "status": "passed",
+        "screenshot": "/api/screenshots/step-1.png"
+      },
+      {
+        "action": "fill",
+        "selector": "#username",
+        "value": "demo",
+        "name": "Enter Username",
+        "status": "failed",
+        "error": "page.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#username')\u001b[22m\n",
+        "screenshot": "/api/screenshots/step-2-error.png"
+      }
+    ]
+  },
+  {
+    "jiraId": "QA-119",
+    "testCaseName": "Test Case QA-119",
+    "timestamp": "2025-06-05T17:49:25.896Z",
+    "description": "Google URL: google.com\n  Test Steps: \n1. Open Google page \n2. Search for the “ ”\n3. open   page\n4. Click on the like icon.  ",
+    "steps": [
+      {
+        "action": "goto",
+        "url": "https://google.com",
+        "name": "Open Google page "
+      },
+      {
+        "action": "fill",
+        "selector": "input[name=\"q\"]",
+        "value": "Blogs | QA Pournima",
+        "name": "Search for the “ ”"
+      },
+      {
+        "action": "press",
+        "key": "Enter",
+        "name": "Submit search"
+      },
+      {
+        "action": "click",
+        "selector": "a[href*=\"qa-pournima\"]",
+        "name": "open   page"
+      },
+      {
+        "action": "click",
+        "selector": ".like-icon",
+        "name": "Click on the like icon.  "
+      }
+    ],
+    "results": [
+      {
+        "action": "goto",
+        "url": "https://google.com",
+        "name": "Open Google page ",
+        "status": "passed",
+        "screenshot": "/api/screenshots/step-1.png"
+      },
+      {
+        "action": "fill",
+        "selector": "input[name=\"q\"]",
+        "value": "Blogs | QA Pournima",
+        "name": "Search for the “ ”",
+        "status": "failed",
+        "error": "page.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[name=\"q\"]')\u001b[22m\n",
+        "screenshot": "/api/screenshots/step-2-error.png"
+      }
+    ]
+  },
+  {
+    "jiraId": "QA-119",
+    "testCaseName": "Test Case QA-119",
+    "timestamp": "2025-06-05T17:49:25.902Z",
+    "description": "Google URL: google.com\n  Test Steps: \n1. Open Google page \n2. Search for the “ ”\n3. open   page\n4. Click on the like icon.  ",
+    "steps": [
+      {
+        "action": "goto",
+        "url": "https://google.com",
+        "name": "Open Google page "
+      },
+      {
+        "action": "fill",
+        "selector": "input[name=\"q\"]",
+        "value": "Blogs | QA Pournima",
+        "name": "Search for the “ ”"
+      },
+      {
+        "action": "press",
+        "key": "Enter",
+        "name": "Submit search"
+      },
+      {
+        "action": "click",
+        "selector": "a[href*=\"qa-pournima\"]",
+        "name": "open   page"
+      },
+      {
+        "action": "click",
+        "selector": ".like-icon",
+        "name": "Click on the like icon.  "
+      }
+    ],
+    "results": [
+      {
+        "action": "goto",
+        "url": "https://google.com",
+        "name": "Open Google page ",
+        "status": "passed",
+        "screenshot": "/api/screenshots/step-1.png"
+      },
+      {
+        "action": "fill",
+        "selector": "input[name=\"q\"]",
+        "value": "Blogs | QA Pournima",
+        "name": "Search for the “ ”",
+        "status": "failed",
+        "error": "page.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[name=\"q\"]')\u001b[22m\n",
+        "screenshot": "/api/screenshots/step-2-error.png"
+      }
+    ]
+  },
+  {
+    "jiraId": "QA-119",
+    "testCaseName": "Test Case QA-119",
+    "timestamp": "2025-06-05T17:50:16.129Z",
+    "description": "Google URL: google.com\n  Test Steps: \n1. Open Google page \n2. Search for the “ ”\n3. open   page\n4. Click on the like icon.  ",
+    "steps": [
+      {
+        "action": "goto",
+        "url": "https://google.com",
+        "name": "Open Google page "
+      },
+      {
+        "action": "fill",
+        "selector": "input[name=\"q\"]",
+        "value": "Blogs | QA Pournima",
+        "name": "Search for the “ ”"
+      },
+      {
+        "action": "press",
+        "key": "Enter",
+        "name": "Submit search"
+      },
+      {
+        "action": "click",
+        "selector": "a[href*=\"qa-pournima\"]",
+        "name": "open   page"
+      },
+      {
+        "action": "click",
+        "selector": ".like-icon",
+        "name": "Click on the like icon.  "
+      }
+    ],
+    "results": [
+      {
+        "action": "goto",
+        "url": "https://google.com",
+        "name": "Open Google page ",
+        "status": "passed",
+        "screenshot": "/api/screenshots/step-1.png"
+      },
+      {
+        "action": "fill",
+        "selector": "input[name=\"q\"]",
+        "value": "Blogs | QA Pournima",
+        "name": "Search for the “ ”",
+        "status": "failed",
+        "error": "page.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[name=\"q\"]')\u001b[22m\n",
+        "screenshot": "/api/screenshots/step-2-error.png"
+      }
+    ]
+  },
+  {
+    "jiraId": "QA-119",
+    "testCaseName": "Test Case QA-119",
+    "timestamp": "2025-06-05T17:50:16.218Z",
+    "description": "Google URL: google.com\n  Test Steps: \n1. Open Google page \n2. Search for the “ ”\n3. open   page\n4. Click on the like icon.  ",
+    "steps": [
+      {
+        "action": "goto",
+        "url": "https://google.com",
+        "name": "Open Google page "
+      },
+      {
+        "action": "fill",
+        "selector": "input[name=\"q\"]",
+        "value": "Blogs | QA Pournima",
+        "name": "Search for the “ ”"
+      },
+      {
+        "action": "press",
+        "key": "Enter",
+        "name": "Submit search"
+      },
+      {
+        "action": "click",
+        "selector": "a[href*=\"qa-pournima\"]",
+        "name": "open   page"
+      },
+      {
+        "action": "click",
+        "selector": ".like-icon",
+        "name": "Click on the like icon.  "
+      }
+    ],
+    "results": [
+      {
+        "action": "goto",
+        "url": "https://google.com",
+        "name": "Open Google page ",
+        "status": "passed",
+        "screenshot": "/api/screenshots/step-1.png"
+      },
+      {
+        "action": "fill",
+        "selector": "input[name=\"q\"]",
+        "value": "Blogs | QA Pournima",
+        "name": "Search for the “ ”",
+        "status": "failed",
+        "error": "page.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[name=\"q\"]')\u001b[22m\n",
+        "screenshot": "/api/screenshots/step-2-error.png"
+      }
+    ]
+  },
+  {
+    "jiraId": "QA-119",
+    "testCaseName": "Test Case QA-119",
+    "timestamp": "2025-06-05T17:54:50.074Z",
+    "description": "\n  Test Steps: \n1. Open page \n2.  open   page\n4. Click on the like icon.  ",
+    "steps": [
+      {
+        "action": "goto",
+        "url": "https://google.com",
+        "name": "Open page "
+      },
+      {
+        "action": "fill",
+        "selector": "input[name=\"q\"]",
+        "value": "Blogs | QA Pournima",
+        "name": "open   page"
+      },
+      {
+        "action": "press",
+        "key": "Enter",
+        "name": "Submit search"
+      },
+      {
+        "action": "click",
+        "selector": "a[href*=\"qa-pournima\"]",
+        "name": "Click on the like icon.  "
+      },
+      {
+        "action": "click",
+        "selector": ".like-icon",
+        "name": "Click on the like icon"
+      }
+    ],
+    "results": [
+      {
+        "action": "goto",
+        "url": "https://google.com",
+        "name": "Open page ",
+        "status": "passed",
+        "screenshot": "/api/screenshots/step-1.png"
+      },
+      {
+        "action": "fill",
+        "selector": "input[name=\"q\"]",
+        "value": "Blogs | QA Pournima",
+        "name": "open   page",
+        "status": "failed",
+        "error": "page.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[name=\"q\"]')\u001b[22m\n\u001b[2m    - waiting for navigation to finish...\u001b[22m\n\u001b[2m    - navigated to \"https://pournimacsm.wixsite.com/qapournima/post/qa-in-the-fast-lane-how-quality-assurance-is-evolving-with-speedy-software-delivery\"\u001b[22m\n",
+        "screenshot": "/api/screenshots/step-2-error.png"
+      }
+    ]
+  },
+  {
+    "jiraId": "QA-119",
+    "testCaseName": "Test Case QA-119",
+    "timestamp": "2025-06-05T17:54:50.299Z",
+    "description": "\n  Test Steps: \n1. Open page \n2.  open   page\n4. Click on the like icon.  ",
+    "steps": [
+      {
+        "action": "goto",
+        "url": "https://google.com",
+        "name": "Open page "
+      },
+      {
+        "action": "fill",
+        "selector": "input[name=\"q\"]",
+        "value": "Blogs | QA Pournima",
+        "name": "open   page"
+      },
+      {
+        "action": "press",
+        "key": "Enter",
+        "name": "Submit search"
+      },
+      {
+        "action": "click",
+        "selector": "a[href*=\"qa-pournima\"]",
+        "name": "Click on the like icon.  "
+      },
+      {
+        "action": "click",
+        "selector": ".like-icon",
+        "name": "Click on the like icon"
+      }
+    ],
+    "results": [
+      {
+        "action": "goto",
+        "url": "https://google.com",
+        "name": "Open page ",
+        "status": "passed",
+        "screenshot": "/api/screenshots/step-1.png"
+      },
+      {
+        "action": "fill",
+        "selector": "input[name=\"q\"]",
+        "value": "Blogs | QA Pournima",
+        "name": "open   page",
+        "status": "failed",
+        "error": "page.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[name=\"q\"]')\u001b[22m\n",
+        "screenshot": "/api/screenshots/step-2-error.png"
+      }
+    ]
+  },
+  {
+    "jiraId": "QA-119",
+    "testCaseName": "Test Case QA-119",
+    "timestamp": "2025-06-05T17:59:41.321Z",
+    "description": "\n  Test Steps: \n1. Open page \n2.  open   page\n4. Click on the like icon.  ",
+    "steps": [
+      {
+        "action": "goto",
+        "url": "https://google.com",
+        "name": "Open page "
+      },
+      {
+        "action": "fill",
+        "selector": "input[name=\"q\"]",
+        "value": "Blogs | QA Pournima",
+        "name": "open   page"
+      },
+      {
+        "action": "press",
+        "key": "Enter",
+        "name": "Submit search"
+      },
+      {
+        "action": "click",
+        "selector": "a[href*=\"qa-pournima\"]",
+        "name": "Click on the like icon.  "
+      },
+      {
+        "action": "click",
+        "selector": ".like-icon",
+        "name": "Click on the like icon"
+      }
+    ],
+    "results": [
+      {
+        "action": "goto",
+        "url": "https://google.com",
+        "name": "Open page ",
+        "status": "passed",
+        "screenshot": "/api/screenshots/step-1.png"
+      },
+      {
+        "action": "fill",
+        "selector": "input[name=\"q\"]",
+        "value": "Blogs | QA Pournima",
+        "name": "open   page",
+        "status": "failed",
+        "error": "page.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[name=\"q\"]')\u001b[22m\n",
+        "screenshot": "/api/screenshots/step-2-error.png"
+      }
+    ]
+  },
+  {
+    "jiraId": "QA-119",
+    "testCaseName": "Test Case QA-119",
+    "timestamp": "2025-06-05T17:59:41.325Z",
+    "description": "\n  Test Steps: \n1. Open page \n2.  open   page\n4. Click on the like icon.  ",
+    "steps": [
+      {
+        "action": "goto",
+        "url": "https://google.com",
+        "name": "Open page "
+      },
+      {
+        "action": "fill",
+        "selector": "input[name=\"q\"]",
+        "value": "Blogs | QA Pournima",
+        "name": "open   page"
+      },
+      {
+        "action": "press",
+        "key": "Enter",
+        "name": "Submit search"
+      },
+      {
+        "action": "click",
+        "selector": "a[href*=\"qa-pournima\"]",
+        "name": "Click on the like icon.  "
+      },
+      {
+        "action": "click",
+        "selector": ".like-icon",
+        "name": "Click on the like icon"
+      }
+    ],
+    "results": [
+      {
+        "action": "goto",
+        "url": "https://google.com",
+        "name": "Open page ",
+        "status": "passed",
+        "screenshot": "/api/screenshots/step-1.png"
+      },
+      {
+        "action": "fill",
+        "selector": "input[name=\"q\"]",
+        "value": "Blogs | QA Pournima",
+        "name": "open   page",
+        "status": "failed",
+        "error": "page.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[name=\"q\"]')\u001b[22m\n",
+        "screenshot": "/api/screenshots/step-2-error.png"
+      }
+    ]
+  },
+  {
+    "jiraId": "QA-119",
+    "testCaseName": "Test Case QA-119",
+    "timestamp": "2025-06-05T18:00:51.438Z",
+    "description": "\n  Test Steps: \n1. Open page \n2.  open   page\n4. Click on the like icon.  ",
+    "steps": [
+      {
+        "action": "goto",
+        "url": "https://google.com",
+        "name": "Open page "
+      },
+      {
+        "action": "fill",
+        "selector": "input[name=\"q\"]",
+        "value": "Blogs | QA Pournima",
+        "name": "open   page"
+      },
+      {
+        "action": "press",
+        "key": "Enter",
+        "name": "Submit search"
+      },
+      {
+        "action": "click",
+        "selector": "a[href*=\"qa-pournima\"]",
+        "name": "Click on the like icon.  "
+      },
+      {
+        "action": "click",
+        "selector": ".like-icon",
+        "name": "Click on the like icon"
+      }
+    ],
+    "results": [
+      {
+        "action": "goto",
+        "url": "https://google.com",
+        "name": "Open page ",
+        "status": "passed",
+        "screenshot": "/api/screenshots/step-1.png"
+      },
+      {
+        "action": "fill",
+        "selector": "input[name=\"q\"]",
+        "value": "Blogs | QA Pournima",
+        "name": "open   page",
+        "status": "failed",
+        "error": "page.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[name=\"q\"]')\u001b[22m\n",
+        "screenshot": "/api/screenshots/step-2-error.png"
+      }
+    ]
+  },
+  {
+    "jiraId": "QA-119",
+    "testCaseName": "Test Case QA-119",
+    "timestamp": "2025-06-05T18:00:51.652Z",
+    "description": "\n  Test Steps: \n1. Open page \n2.  open   page\n4. Click on the like icon.  ",
+    "steps": [
+      {
+        "action": "goto",
+        "url": "https://google.com",
+        "name": "Open page "
+      },
+      {
+        "action": "fill",
+        "selector": "input[name=\"q\"]",
+        "value": "Blogs | QA Pournima",
+        "name": "open   page"
+      },
+      {
+        "action": "press",
+        "key": "Enter",
+        "name": "Submit search"
+      },
+      {
+        "action": "click",
+        "selector": "a[href*=\"qa-pournima\"]",
+        "name": "Click on the like icon.  "
+      },
+      {
+        "action": "click",
+        "selector": ".like-icon",
+        "name": "Click on the like icon"
+      }
+    ],
+    "results": [
+      {
+        "action": "goto",
+        "url": "https://google.com",
+        "name": "Open page ",
+        "status": "passed",
+        "screenshot": "/api/screenshots/step-1.png"
+      },
+      {
+        "action": "fill",
+        "selector": "input[name=\"q\"]",
+        "value": "Blogs | QA Pournima",
+        "name": "open   page",
+        "status": "failed",
+        "error": "page.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[name=\"q\"]')\u001b[22m\n\u001b[2m    - waiting for\" https://pournimacsm.wixsite.com/qapournima/blog\" navigation to finish...\u001b[22m\n\u001b[2m    - navigated to \"https://pournimacsm.wixsite.com/qapournima/blog\"\u001b[22m\n",
+        "screenshot": "/api/screenshots/step-2-error.png"
+      }
+    ]
+  },
+  {
+    "jiraId": "QA-119",
+    "testCaseName": "Test Case QA-119",
+    "timestamp": "2025-06-05T18:04:17.968Z",
+    "description": "\n  Test Steps: \n1. Open page \n2.  open   page\n4. Click on the like icon.  ",
+    "steps": [
+      {
+        "action": "goto",
+        "url": "https://google.com",
+        "name": "Open page "
+      },
+      {
+        "action": "fill",
+        "selector": "input[name=\"q\"]",
+        "value": "Blogs | QA Pournima",
+        "name": "open   page"
+      },
+      {
+        "action": "press",
+        "key": "Enter",
+        "name": "Submit search"
+      },
+      {
+        "action": "click",
+        "selector": "a[href*=\"qa-pournima\"]",
+        "name": "Click on the like icon.  "
+      },
+      {
+        "action": "click",
+        "selector": ".like-icon",
+        "name": "Click on the like icon"
+      }
+    ],
+    "results": [
+      {
+        "action": "goto",
+        "url": "https://google.com",
+        "name": "Open page ",
+        "status": "passed",
+        "screenshot": "/api/screenshots/step-1.png"
+      },
+      {
+        "action": "fill",
+        "selector": "input[name=\"q\"]",
+        "value": "Blogs | QA Pournima",
+        "name": "open   page",
+        "status": "failed",
+        "error": "page.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[name=\"q\"]')\u001b[22m\n",
+        "screenshot": "/api/screenshots/step-2-error.png"
+      }
+    ]
+  },
+  {
+    "jiraId": "QA-119",
+    "testCaseName": "Test Case QA-119",
+    "timestamp": "2025-06-05T18:04:17.970Z",
+    "description": "\n  Test Steps: \n1. Open page \n2.  open   page\n4. Click on the like icon.  ",
+    "steps": [
+      {
+        "action": "goto",
+        "url": "https://google.com",
+        "name": "Open page "
+      },
+      {
+        "action": "fill",
+        "selector": "input[name=\"q\"]",
+        "value": "Blogs | QA Pournima",
+        "name": "open   page"
+      },
+      {
+        "action": "press",
+        "key": "Enter",
+        "name": "Submit search"
+      },
+      {
+        "action": "click",
+        "selector": "a[href*=\"qa-pournima\"]",
+        "name": "Click on the like icon.  "
+      },
+      {
+        "action": "click",
+        "selector": ".like-icon",
+        "name": "Click on the like icon"
+      }
+    ],
+    "results": [
+      {
+        "action": "goto",
+        "url": "https://google.com",
+        "name": "Open page ",
+        "status": "passed",
+        "screenshot": "/api/screenshots/step-1.png"
+      },
+      {
+        "action": "fill",
+        "selector": "input[name=\"q\"]",
+        "value": "Blogs | QA Pournima",
+        "name": "open   page",
+        "status": "failed",
+        "error": "page.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[name=\"q\"]')\u001b[22m\n",
+        "screenshot": "/api/screenshots/step-2-error.png"
+      }
+    ]
+  },
+  {
+    "jiraId": "QA-119",
+    "testCaseName": "Test Case QA-119",
+    "timestamp": "2025-06-05T18:08:53.318Z",
+    "description": "\n  Test Steps: \n1. Open page \n2.  open   page\n4. Click on the like icon.  ",
+    "steps": [
+      {
+        "action": "goto",
+        "url": "https://google.com",
+        "name": "Open page "
+      },
+      {
+        "action": "fill",
+        "selector": "input[name=\"q\"]",
+        "value": "Blogs | QA Pournima",
+        "name": "open   page"
+      },
+      {
+        "action": "press",
+        "key": "Enter",
+        "name": "Submit search"
+      },
+      {
+        "action": "click",
+        "selector": "a[href*=\"qa-pournima\"]",
+        "name": "Click on the like icon.  "
+      },
+      {
+        "action": "click",
+        "selector": ".like-icon",
+        "name": "Click on the like icon"
+      }
+    ],
+    "results": [
+      {
+        "action": "goto",
+        "url": "https://google.com",
+        "name": "Open page ",
+        "status": "passed",
+        "screenshot": "/api/screenshots/step-1.png"
+      },
+      {
+        "action": "fill",
+        "selector": "input[name=\"q\"]",
+        "value": "Blogs | QA Pournima",
+        "name": "open   page",
+        "status": "failed",
+        "error": "page.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[name=\"q\"]')\u001b[22m\n",
+        "screenshot": "/api/screenshots/step-2-error.png"
+      }
+    ]
+  },
+  {
+    "jiraId": "QA-119",
+    "testCaseName": "Test Case QA-119",
+    "timestamp": "2025-06-05T18:08:53.322Z",
+    "description": "\n  Test Steps: \n1. Open page \n2.  open   page\n4. Click on the like icon.  ",
+    "steps": [
+      {
+        "action": "goto",
+        "url": "https://google.com",
+        "name": "Open page "
+      },
+      {
+        "action": "fill",
+        "selector": "input[name=\"q\"]",
+        "value": "Blogs | QA Pournima",
+        "name": "open   page"
+      },
+      {
+        "action": "press",
+        "key": "Enter",
+        "name": "Submit search"
+      },
+      {
+        "action": "click",
+        "selector": "a[href*=\"qa-pournima\"]",
+        "name": "Click on the like icon.  "
+      },
+      {
+        "action": "click",
+        "selector": ".like-icon",
+        "name": "Click on the like icon"
+      }
+    ],
+    "results": [
+      {
+        "action": "goto",
+        "url": "https://google.com",
+        "name": "Open page ",
+        "status": "passed",
+        "screenshot": "/api/screenshots/step-1.png"
+      },
+      {
+        "action": "fill",
+        "selector": "input[name=\"q\"]",
+        "value": "Blogs | QA Pournima",
+        "name": "open   page",
+        "status": "failed",
+        "error": "page.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[name=\"q\"]')\u001b[22m\n",
+        "screenshot": "/api/screenshots/step-2-error.png"
+      }
+    ]
+  },
+  {
+    "jiraId": "QA-115",
+    "testCaseName": "Test Case QA-115",
+    "timestamp": "2025-06-07T08:50:51.181Z",
+    "description": "Title: Test Case for Google SSO Login\n\nDescription:\nTo verify the working of the Google Single Sign-On (SSO) method on the login page, ensuring that upon selection, users are redirected to the Google login page to complete authentication.\n\nPreconditions:\n1. The test server is up and running.\n2. The user is at the login page, ready to log in with Google SSO.\n  \nTest Steps:\n1. Navigate to the login page.\n2. Click on the Google SSO method to log in.\n\nExpected Result:\n1. The user should be redirected to the Google login page upon selecting the Google SSO method.\n\nTest Data:\n• N/A in this context as we are not providing any inputs, just verifying redirection to Google's page.",
+    "steps": [
+      {
+        "action": "goto",
+        "url": "https://google.com",
+        "name": "The test server is up and running."
+      },
+      {
+        "action": "fill",
+        "selector": "input[name=\"q\"]",
+        "value": "Blogs | QA Pournima",
+        "name": "The user is at the login page, ready to log in with Google SSO."
+      },
+      {
+        "action": "press",
+        "key": "Enter",
+        "name": "Submit search"
+      },
+      {
+        "action": "click",
+        "selector": "a[href*=\"qa-pournima\"]",
+        "name": "Navigate to the login page."
+      },
+      {
+        "action": "click",
+        "selector": ".like-icon",
+        "name": "Click on the Google SSO method to log in."
+      }
+    ],
+    "results": [
+      {
+        "action": "goto",
+        "url": "https://google.com",
+        "name": "The test server is up and running.",
+        "status": "passed",
+        "screenshot": "/api/screenshots/step-1.png"
+      },
+      {
+        "action": "fill",
+        "selector": "input[name=\"q\"]",
+        "value": "Blogs | QA Pournima",
+        "name": "The user is at the login page, ready to log in with Google SSO.",
+        "status": "failed",
+        "error": "page.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[name=\"q\"]')\u001b[22m\n",
+        "screenshot": "/api/screenshots/step-2-error.png"
+      }
+    ]
+  },
+  {
+    "jiraId": "QA-115",
+    "testCaseName": "Test Case QA-115",
+    "timestamp": "2025-06-07T08:50:51.205Z",
+    "description": "Title: Test Case for Google SSO Login\n\nDescription:\nTo verify the working of the Google Single Sign-On (SSO) method on the login page, ensuring that upon selection, users are redirected to the Google login page to complete authentication.\n\nPreconditions:\n1. The test server is up and running.\n2. The user is at the login page, ready to log in with Google SSO.\n  \nTest Steps:\n1. Navigate to the login page.\n2. Click on the Google SSO method to log in.\n\nExpected Result:\n1. The user should be redirected to the Google login page upon selecting the Google SSO method.\n\nTest Data:\n• N/A in this context as we are not providing any inputs, just verifying redirection to Google's page.",
+    "steps": [
+      {
+        "action": "goto",
+        "url": "https://google.com",
+        "name": "The test server is up and running."
+      },
+      {
+        "action": "fill",
+        "selector": "input[name=\"q\"]",
+        "value": "Blogs | QA Pournima",
+        "name": "The user is at the login page, ready to log in with Google SSO."
+      },
+      {
+        "action": "press",
+        "key": "Enter",
+        "name": "Submit search"
+      },
+      {
+        "action": "click",
+        "selector": "a[href*=\"qa-pournima\"]",
+        "name": "Navigate to the login page."
+      },
+      {
+        "action": "click",
+        "selector": ".like-icon",
+        "name": "Click on the Google SSO method to log in."
+      }
+    ],
+    "results": [
+      {
+        "action": "goto",
+        "url": "https://google.com",
+        "name": "The test server is up and running.",
+        "status": "passed",
+        "screenshot": "/api/screenshots/step-1.png"
+      },
+      {
+        "action": "fill",
+        "selector": "input[name=\"q\"]",
+        "value": "Blogs | QA Pournima",
+        "name": "The user is at the login page, ready to log in with Google SSO.",
+        "status": "failed",
+        "error": "page.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[name=\"q\"]')\u001b[22m\n",
+        "screenshot": "/api/screenshots/step-2-error.png"
+      }
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "id": "PR-1",
+    "title": "Sample Project",
+    "desc": "This is a sample imported project.",
+    "tag": "Import",
+    "tagType": "Jira",
+    "createddate": "2024-06-01",
+    "lastUpdate": "2024-06-05",
+    "activity": "",
+    "status": "Disabled"
+  },
+  {
+    "id": "PR-2",
+    "title": "tt",
+    "desc": "hello test",
+    "tag": "Zap Project",
+    "tagType": "NA",
+    "createddate": "2025-05-31",
+    "lastUpdate": "2025-05-31",
+    "activity": "",
+    "status": "Disabled"
+  },
+  {
+    "id": "PR-3",
+    "title": "hello team",
+    "desc": "testing project for data",
+    "tag": "Zap Project",
+    "tagType": "NA",
+    "created": "2025-05-31T20:21:59.489Z",
+    "lastUpdate": "2025-05-31T20:21:59.490Z",
+    "activity": "Active",
+    "status": "Disabled"
+  },
+  {
+    "id": "PR-4",
+    "title": "Jira Imported Project",
+    "desc": "Atlassian Jira integration",
+    "tag": "Import",
+    "tagType": "Jira",
+    "created": "2025-05-31T20:29:58.968Z",
+    "lastUpdate": "2025-05-31T20:29:58.968Z",
+    "activity": "Imported",
+    "status": "Active"
+  }
+]
