@@ -14,6 +14,7 @@ const Login = () => {
       return;
     }
     setError('');
+    localStorage.setItem('isLoggedIn', 'true');
     navigate('/dashboard');
   };
 
