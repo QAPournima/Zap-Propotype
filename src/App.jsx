@@ -40,6 +40,12 @@ function AppRoutes(props) {
     );
   }
 
+  // Redirect root path '/' to '/login'
+  if (location.pathname === '/') {
+    window.location.replace('/login');
+    return null;
+  }
+
   // Otherwise, render the full layout
   return (
     <div className="min-h-screen bg-white text-gray-900 dark:bg-neutral-900 dark:text-gray-100 flex flex-col">
