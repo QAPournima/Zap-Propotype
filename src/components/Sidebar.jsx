@@ -85,6 +85,15 @@ const Sidebar = ({ collapsed, setCollapsed }) => {
               {!collapsed && <span className="ml-3 text-white">Settings</span>}
             </Link>
           </li>
+          <li>
+            <Link
+              to="/contactus"
+              className={`flex items-center p-2 rounded-lg ${isActive('/contactus') ? 'bg-[#23293a]' : 'hover:bg-[#23293a]'} ${collapsed ? 'justify-center' : ''}`}
+            >
+              <img src="/images/contact_icon.png" alt="Contact Us" className="w-6 h-6 mr-0" />
+              {!collapsed && <span className="ml-3 text-white">Contact Us</span>}
+            </Link>
+          </li>
         </ul>
       </nav>
       {/* Logout Button at the Bottom */}

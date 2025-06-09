@@ -20,6 +20,7 @@ import MySprint from './pages/MySprint';
 import LiveTest from './pages/LiveTest';
 import AutomatedTest from './pages/AutomationTest';
 import Login from './pages/Login';
+import Contactus from './pages/Contactus';
 
 function PrivateRoute({ children }) {
   const isLoggedIn = localStorage.getItem('isLoggedIn') === 'true';
@@ -76,6 +77,7 @@ function AppRoutes(props) {
             <Route path="/my-sprint" element={<MySprint />} />
             <Route path="/automatedtest" element={<AutomatedTest />} />
             <Route path="/AutomationTest" element={<AutomatedTest />} />
+            <Route path="/contactus" element={<Contactus />} />
           </Routes>
           {/* Floating Chat Open Button (global) */}
           {location.pathname !== '/ai-chatbot-assistan' && !chatOpen && (
