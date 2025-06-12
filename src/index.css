@@ -107,3 +107,13 @@ h1, h2, h3, h4, h5, h6, .sidebar, .top-navbar, .main-content {
 .animate-blink {
   animation: blink 1s linear infinite;
 } 
+
+@layer utilities {
+  .animate-scroll {
+    animation: scroll 20s linear infinite;
+  }
+  @keyframes scroll {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+} 
