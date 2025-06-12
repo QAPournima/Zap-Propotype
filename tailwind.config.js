@@ -31,6 +31,15 @@ module.exports = {
           900: '#0f172a',
         },
       },
+      keyframes: {
+        scroll: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        }
+      },
+      animation: {
+        'scroll': 'scroll 20s linear infinite',
+      }
     },
   },
   plugins: [],
