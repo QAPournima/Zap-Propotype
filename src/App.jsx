@@ -22,6 +22,8 @@ import AutomatedTest from './pages/AutomationTest';
 import Login from './pages/Login';
 import Contactus from './pages/Contactus';
 
+import MLanalytics from './pages/MLanalytics';
+
 function PrivateRoute({ children }) {
   const isLoggedIn = localStorage.getItem('isLoggedIn') === 'true';
   return isLoggedIn ? children : <Navigate to="/login" replace />;
@@ -78,6 +80,7 @@ function AppRoutes(props) {
             <Route path="/automatedtest" element={<AutomatedTest />} />
             <Route path="/AutomationTest" element={<AutomatedTest />} />
             <Route path="/contactus" element={<Contactus />} />
+            <Route path="/MLanalytics" element={<MLanalytics />} />
           </Routes>
           {/* Floating Chat Open Button (global) */}
           {location.pathname !== '/ai-chatbot-assistan' && !chatOpen && (
@@ -435,7 +438,7 @@ function App() {
         followupActions={followupActions}
         setFollowupActions={setFollowupActions}
         followupError={followupError}
-        setFollowupError={setFollowupError}
+        setFollowupError={setFollowupMessageIdx}
         followupMessageIdx={followupMessageIdx}
         setFollowupMessageIdx={setFollowupMessageIdx}
         buttonClickedIdx={buttonClickedIdx}
@@ -456,4 +459,4 @@ function App() {
   );
 }
 
-export default App; 
+export default App;

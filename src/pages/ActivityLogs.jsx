@@ -193,7 +193,7 @@ const ActivityLogs = ({ refreshKey, ...props }) => {
 
   return (
     <div className="p-6 min-h-screen bg-white text-gray-900 dark:bg-neutral-900 dark:text-gray-100">
-      <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-4">
+      <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-4 mt-8 text-3xl">
         <h1 className="text-3xl font-bold">Activity Logs</h1>
         <div className="flex flex-col md:flex-row gap-2 md:gap-4 items-center">
           <input

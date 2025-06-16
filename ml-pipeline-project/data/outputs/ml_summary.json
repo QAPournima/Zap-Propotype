@@ -1,0 +1,1 @@
+{"total_tests": 48, "high_risk_count": 33, "failed_count": 33, "passed_count": 15, "explanation": "High-risk bugs are predicted based on failed status and error keywords."}

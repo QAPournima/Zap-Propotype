@@ -268,7 +268,7 @@ export default function LiveTest() {
   };
 
   return (
-    <div className="min-h-screen bg-white dark:bg-neutral-900 text-gray-900 dark:text-gray-100 p-8">
+    <div className=" mt-8 min-h-screen bg-white dark:bg-neutral-900 text-gray-900 dark:text-gray-100 p-8">
       {fromMySprint && (
         <div className="mb-4 p-3 bg-blue-100 text-blue-800 rounded border border-blue-300 dark:bg-blue-900 dark:text-blue-100 dark:border-blue-700">
           Manual test process started from My Sprint. Please follow the steps below to execute your test.

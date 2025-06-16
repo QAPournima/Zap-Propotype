@@ -331,7 +331,7 @@ export default function ZapAIFeatures() {
   const [selectedFeature, setSelectedFeature] = useState(null);
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-neutral-900 p-8 text-gray-900 dark:text-gray-100">
+    <div className="mt-8 min-h-screen bg-gray-50 dark:bg-neutral-900 p-8 text-gray-900 dark:text-gray-100">
       {/* Features Section */}
       <div className="mb-8">
         <div className="flex items-center justify-between mb-6">

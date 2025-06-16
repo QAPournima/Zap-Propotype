@@ -271,9 +271,9 @@ const Dashboard = () => {
     <div className="min-h-screen bg-gray-50 dark:bg-neutral-900 dark:text-gray-100">
       <main className="p-6">
         {/* Role Switcher - now more visible */}
-        <div className="flex items-center justify-center mb-8 gap-3">
+        <div className="flex items-center justify-center mb-8 gap-3 mt-8 text-2xl">
           <span className="text-2xl text-purple-600">👤</span>
-          <label htmlFor="role-switcher" className="font-bold text-lg text-gray-800 dark:text-gray-100">Select Role:</label>
+          <label htmlFor="role-switcher" className=" font-bold text-lg text-gray-800 dark:text-gray-100">Select Role:</label>
           <select
             id="role-switcher"
             value={userRole}

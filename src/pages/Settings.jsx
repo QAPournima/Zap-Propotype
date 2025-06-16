@@ -557,7 +557,7 @@ const Settings = ({ themeMode, setThemeMode }) => {
   }
 
   return (
-    <div className="min-h-screen bg-white text-gray-900 dark:bg-neutral-900 dark:text-gray-100 flex">
+    <div className="mt-8 min-h-screen bg-white text-gray-900 dark:bg-neutral-900 dark:text-gray-100 flex">
       {/* Left Navigation */}
       <aside className="w-64 bg-white dark:bg-neutral-800 border-r border-neutral-200 dark:border-neutral-700 flex flex-col py-8 px-4">
         <h2 className="text-xl font-bold mb-8">Settings</h2>

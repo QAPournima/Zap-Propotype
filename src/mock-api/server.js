@@ -1366,6 +1366,7 @@ app.post('/api/ai/create-issue', async (req, res) => {
         if (err2.response && err2.response.data) {
           console.error('[create-issue] Jira error response (lowercase):', JSON.stringify(err2.response.data, null, 2));
         }
+        console.error('[create-issue] ERROR:', err2.stack || err2.message || err);
         console.error('[create-issue] ERROR:', err2.stack || err2.message || err2);
         return res.status(500).json({ error: err2.message });
       }
@@ -1506,6 +1507,35 @@ app.delete('/api/automation-test-runs', async (req, res) => {
   }
 });
 
+// Predict high-risk bugs (mock endpoint)
+app.get('/api/predict-high-risk-bugs', async (req, res) => {
+  try {
+    const filePath = path.join(__dirname, '../automation-backend/automationrunlogs.json');
+    const data = await fs.readFile(filePath, 'utf8');
+    const runs = JSON.parse(data);
+
+    // Mock ML logic: flag failed runs with certain keywords as high risk
+    const highRiskPredictions = runs.map(run => {
+      const isHighRisk =
+        run.status === 'failed' &&
+        run.steps.some(
+          step =>
+            (step.error && /timeout|exception|crash|critical/i.test(step.error)) ||
+            (step.status === 'failed' && step.error && step.error.length > 50)
+        );
+      return {
+        ...run,
+        highRisk: isHighRisk,
+        riskScore: isHighRisk ? 0.9 : 0.1 // Mock score
+      };
+    });
+
+    res.json(highRiskPredictions);
+  } catch (err) {
+    res.status(500).json({ error: 'Failed to predict high-risk bugs' });
+  }
+});
+
 // Initialize server
 const startServer = async () => {
   await ensureDataDir();
@@ -1518,4 +1548,4 @@ const startServer = async () => {
   });
 };
 
-startServer(); 
+startServer();

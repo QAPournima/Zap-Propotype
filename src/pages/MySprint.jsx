@@ -347,7 +347,7 @@ export default function MySprint() {
   return (
     <div className="min-h-screen bg-white text-gray-900 dark:bg-neutral-900 dark:text-gray-100 flex flex-col p-8">
       <div className="w-full px-8 pt-2">
-        <h2 className="text-3xl font-bold mb-8">My Sprint</h2>
+        <h2 className="mt-4 text-2xl font-bold mb-8">My Sprint</h2>
         {/* Jira Project Selector Dropdown - moved below the page title */}
         {console.log('Dropdown projects:', projects)}
         <div style={{ marginBottom: 16 }}>

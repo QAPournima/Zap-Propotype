@@ -3,15 +3,16 @@ import React from 'react';
 export default function HelpModal({ open, onClose }) {
   if (!open) return null;
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60">
+    <div className=" mt-8 fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60">
       <div className="bg-[#23293a] text-white rounded-xl shadow-lg p-8 w-full max-w-2xl border border-neutral-700 relative">
-        <button
-          className="absolute top-4 right-4 text-gray-400 hover:text-gray-200 text-2xl"
+       <button
           onClick={onClose}
+          className="mt-10 absolute top-2 right-2 text-gray-500 hover:text-gray-800 text-2xl font-bold"
+          aria-label="Close"
         >
           &times;
         </button>
-        <h1 className="text-2xl font-bold mb-4 text-blue-300">Zap⚡️ Help & Getting Started - Demo data</h1>
+        <h1 className="mt-8 text-2xl font-bold mb-4 text-blue-300">Zap⚡️ Help & Getting Started - Demo data</h1>
         <div className="mb-6">
           <h2 className="text-xl font-bold text-blue-200 mb-2">What is Zap⚡️?</h2>
           <p>Zap⚡️ is a tool for managing and running automated and manual tests, tracking sprints, and collaborating with your team.</p>
@@ -47,5 +48,7 @@ export default function HelpModal({ open, onClose }) {
         </div>
       </div>
     </div>
+    
   );
+  
 } 

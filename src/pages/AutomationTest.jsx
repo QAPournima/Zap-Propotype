@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { testCaseService } from '../services/api';
+//import { testCaseService } from '../services/api';
+import { testCaseService, analyticsService } from '../services/api';
+
 import { logActivity, ActivityTypes, createActivityObject } from '../utils/activityLogger';
 import ConfirmDialog from '../components/ConfirmDialog';
 
@@ -368,7 +370,7 @@ export default function AutomatedTest() {
   };
 
   return (
-    <div className="min-h-screen bg-white dark:bg-neutral-900 text-gray-900 dark:text-gray-100 p-8">
+    <div className="mt-8 min-h-screen bg-white dark:bg-neutral-900 text-gray-900 dark:text-gray-100 p-8">
       <h2 className="text-2xl font-bold mb-4">Automated Test</h2>
       {/* Tabs */}
       <div className="mb-6 flex gap-2 border-b border-gray-300 dark:border-neutral-700">
