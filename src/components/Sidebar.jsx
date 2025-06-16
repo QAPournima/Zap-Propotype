@@ -81,7 +81,7 @@ const Sidebar = ({ collapsed, setCollapsed }) => {
               to="/MLanalytics"
               className={`flex items-center p-2 rounded-lg ${isActive('/MLanalytics') ? 'bg-[#23293a]' : 'hover:bg-[#23293a]'} ${collapsed ? 'justify-center' : ''}`}
             >
-              <img src="/images/analytics.png" alt="MLanalytics" className="w-6 h-6 mr-0" />
+              <img src="/images/analysis.png" alt="MLanalytics" className="w-6 h-6 mr-0" />
               {!collapsed && <span className="ml-3 text-white">ML Analytics</span>}
             </Link>
           </li>
