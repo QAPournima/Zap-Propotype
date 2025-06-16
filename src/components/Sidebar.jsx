@@ -27,7 +27,7 @@ const Sidebar = ({ collapsed, setCollapsed }) => {
 
   return (
     <aside
-      className={`fixed top-14 left-0 bottom-0 bg-[#1A1E1D] h-[calc(100vh-56px)] flex flex-col text-white transition-all duration-300 ${collapsed ? 'w-16' : 'w-60'}`}
+      className={`mt-8 fixed top-14 left-0 bottom-0 bg-[#1A1E1D] h-[calc(100vh-56px)] flex flex-col text-white transition-all duration-300 ${collapsed ? 'w-16' : 'w-60'}`}
     >
       {/* Collapse/Expand Toggle */}
       <div className="flex items-center justify-end px-2 mb-2">
